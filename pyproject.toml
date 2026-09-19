@@ -7,7 +7,9 @@ authors = [
     { name = "Sahil Patel", email = "107137561+sahilpatel1300@users.noreply.github.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "polars>=1.30.0,<2",
+]
 
 [project.scripts]
 hophacks2026 = "hophacks2026:main"
