@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SoundTravels — A sound across culture</title>
+  <meta name="description" content="Follow how the hashtag and topic context around a TikTok audio changes across an observed window.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%230c1719'/%3E%3Cpath d='M6 22h7l3-12 7 21 5-12h6' stroke='%23dcff8f' fill='none' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <header>
+    <a class="brand" href="#top">SoundTravels<span>↗</span></a>
+    <nav aria-label="Page sections"><a href="#atlas">Atlas</a><a href="#method">Method</a><a href="#references">References</a></nav>
+    <span class="window" id="header-window">OBSERVED DATA · 2025</span>
+  </header>
+
+  <main id="top">
+    <section class="intro">
+      <p class="eyebrow">ONE AUDIO · TWO SEMANTIC MAPS · OBSERVED OVER TIME</p>
+      <h1>Watch a sound find<br><em>new cultural homes.</em></h1>
+      <p class="direct-copy">We track how the hashtag and topic context surrounding the same TikTok audio changes across a fixed observation window.</p>
+    </section>
+
+    <section id="atlas" class="atlas" aria-labelledby="atlas-title">
+      <div class="atlas-head">
+        <div><p class="eyebrow">THE DUAL ATLAS</p><h2 id="atlas-title">The same videos, seen through two kinds of meaning.</h2></div>
+        <div class="audio-control">
+          <label for="audio-select">Choose an audio to follow</label><select id="audio-select"></select>
+          <div class="audio-actions"><button id="play-audio" type="button" disabled>▶ Play Audio</button><span id="audio-status">Audio file not added</span><a id="source-video" target="_blank" rel="noopener">Dataset video ↗</a></div>
+          <audio id="audio-player" preload="none"></audio>
+        </div>
+      </div>
+
+      <div class="stats" aria-label="Selected audio summary">
+        <div><span>OBSERVED USES</span><strong id="stat-uses">—</strong></div>
+        <div><span>HASHTAG FAMILIES REACHED</span><strong id="stat-hashtags">—</strong></div>
+        <div><span>TOPIC FAMILIES REACHED</span><strong id="stat-topics">—</strong></div>
+      </div>
+
+      <div class="maps">
+        <article class="map-card">
+          <div class="map-title"><div><span>MAP A</span><h3>Hashtag UMAP</h3></div><div id="hashtag-legend" class="header-legend" aria-label="Hashtag family key"></div></div>
+          <div class="map-stage"><canvas id="hashtag-canvas" aria-label="Hashtag UMAP of observed videos"></canvas><div id="hashtag-tooltip" class="tooltip" hidden></div></div>
+        </article>
+        <article class="map-card">
+          <div class="map-title"><div><span>MAP B</span><h3>Topic-family UMAP</h3></div><div id="topic-legend" class="header-legend" aria-label="Topic family key"></div></div>
+          <div class="map-stage"><canvas id="topic-canvas" aria-label="Topic-family UMAP of observed videos"></canvas><div id="topic-tooltip" class="tooltip" hidden></div></div>
+        </article>
+      </div>
+
+      <div class="map-guidance" aria-label="How to read the maps"><span>Each point is one observed video.</span><span>Nearby points use similar language.</span><span>Axes have no direct meaning.</span><span>Hover or click a highlighted point to find it in both maps.</span></div>
+
+      <section class="timeline" aria-labelledby="timeline-title">
+        <div class="timeline-head"><div><p class="eyebrow">USAGE OVER TIME</p><h3 id="timeline-title">Videos using this audio each day</h3></div><strong id="date-label">—</strong></div>
+        <div class="mode-bar" role="group" aria-label="Temporal mode"><button class="mode active" data-mode="moment" aria-pressed="true"><strong>Watch movement</strong><small>One observed date at a time</small></button><button class="mode" data-mode="window" aria-pressed="false"><strong>Compare window</strong><small>Hold a start and end date</small></button></div>
+        <div class="chart-wrap"><canvas id="usage-chart" aria-label="Daily count of videos using the selected audio"></canvas></div>
+        <div id="moment-control"><input id="time-slider" type="range" min="0" max="0" value="0" aria-label="Observed date"></div>
+        <div id="window-control" class="range-control" hidden><input id="start-slider" type="range" min="0" max="0" value="0" aria-label="Comparison start date"><input id="end-slider" type="range" min="0" max="0" value="0" aria-label="Comparison end date"></div>
+        <div class="timeline-axis"><span id="axis-start">—</span><span id="scrub-instruction">DRAG TO SCRUB OBSERVED DAYS</span><span id="axis-end">—</span></div>
+      </section>
+    </section>
+
+    <section id="method" class="method section">
+      <div class="section-heading"><p class="eyebrow">METHOD & BOUNDARIES</p><h2>Two fixed landscapes.<br><em>One synchronized clock.</em></h2></div>
+      <div class="method-copy">
+        <p>Both UMAPs are calculated across the shared corpus. Selecting an audio or moving through time changes which observed videos are emphasized; it does not move the underlying coordinates.</p>
+        <p>Hashtag families come from hashtag language. Topic families come from caption context. Proximity represents semantic similarity inside each map, not influence or transmission.</p>
+      </div>
+    </section>
+
+    <section id="references" class="references section">
+      <div class="section-heading"><p class="eyebrow">REFERENCES</p><h2>Data, methods, and memetics.</h2></div>
+      <ol>
+        <li><span>01</span><div><h3><a href="https://huggingface.co/datasets/The-data-company/TikTok-10M" target="_blank" rel="noopener">TikTok-10M dataset ↗</a></h3><p>The public source dataset associated with the analyzed records.</p></div></li>
+        <li><span>02</span><div><h3><a href="https://arxiv.org/abs/1802.03426" target="_blank" rel="noopener">McInnes, Healy & Melville · UMAP ↗</a></h3><p>The dimensionality-reduction method used for both semantic maps.</p></div></li>
+        <li><span>03</span><div><h3><a href="https://doi.org/10.1177/14614448251358752" target="_blank" rel="noopener">Pilipets & Chao · Noise in sonic social media ↗</a></h3><p>Sound-linking, hashtagging, and memetic soundscapes on TikTok.</p></div></li>
+        <li><span>04</span><div><h3><a href="https://doi.org/10.1007/s13278-026-01607-2" target="_blank" rel="noopener">Oliveira et al. · Epidemic wave dynamics of music virality ↗</a></h3><p>A temporal account of music virality across online platforms, including TikTok.</p></div></li>
+        <li><span>05</span><div><h3><a href="https://doi.org/10.1287/mnsc.2015.2158" target="_blank" rel="noopener">Goel et al. · The structural virality of online diffusion ↗</a></h3><p>A framework distinguishing broadcast reach from multi-generation diffusion.</p></div></li>
+        <li><span>06</span><div><h3><a href="https://www.calcifercomputing.com/hophacks" target="_blank" rel="noopener">Calcifer Computing · Memetics track ↗</a></h3><p>The track framing and interaction reference for this project.</p></div></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top">SoundTravels<span>↗</span></a><p>Observed semantic movement of TikTok audio.</p><span id="footer-window">FIXED OBSERVATION WINDOW</span></footer>
+</body>
+</html>
