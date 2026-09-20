@@ -54,7 +54,6 @@ def _metrics_for_group(
     views_centroid_u = float(np.average(u, weights=weights))
     count_centroid_u = float(u.mean())
 
-    # Daily peaks on full group (not filtered by min_age for daily series - that's separate output)
     return {
         "views_centroid_u": views_centroid_u,
         "count_centroid_u": count_centroid_u,
@@ -111,38 +110,43 @@ def _age_spearman(g: pd.DataFrame, snapshot: pd.Timestamp) -> float:
 
 def _daily_and_bins(
     grp: pd.DataFrame, start: pd.Timestamp, lifespan: int, music_id: str
-) -> tuple[pd.DataFrame, pd.DataFrame]:
-    d = (grp["post_date"] - start).dt.days.astype(int)
-    daily = (
-        grp.assign(day_index=d)
-        .groupby("day_index", as_index=False)
-        .agg(views_sum=("total_views", "sum"), video_count=("video_id", "count"))
-    )
-    full = pd.DataFrame({"day_index": np.arange(lifespan + 1, dtype=int)})
-    daily = full.merge(daily, on="day_index", how="left").fillna(
-        {"views_sum": 0, "video_count": 0}
-    )
-    daily["views_sum"] = daily["views_sum"].astype(np.int64)
-    daily["video_count"] = daily["video_count"].astype(int)
-    daily["u"] = daily["day_index"] / max(lifespan, 1)
-    daily["music_id"] = music_id
+) -> tuple[pd.DataFrame, pd.DataFrame, int, int]:
+    # Ensure post_date is on or after start date
+    valid_mask = grp["post_date"] >= start
+    g_valid = grp[valid_mask] if not valid_mask.all() else grp
 
-    u_vid = np.clip(d.to_numpy(dtype=float) / max(lifespan, 1), 0.0, 1.0)
-    views = grp["total_views"].to_numpy(dtype=float)
+    d = (g_valid["post_date"] - start).dt.days.astype(int)
+    views = g_valid["total_views"].to_numpy(dtype=float)
+
+    # Clip days to ensure valid indexing within [0, lifespan]
+    int_days = np.clip(d.to_numpy(dtype=int), 0, lifespan)
+
+    # Fast bincount aggregation for daily series
+    daily_views = np.bincount(int_days, weights=views, minlength=lifespan + 1)
+    daily_counts = np.bincount(int_days, minlength=lifespan + 1)
+
+    daily = pd.DataFrame({
+        "music_id": [music_id] * (lifespan + 1),
+        "day_index": np.arange(lifespan + 1, dtype=int),
+        "views_sum": daily_views.astype(np.int64),
+        "video_count": daily_counts.astype(int),
+        "u": np.arange(lifespan + 1) / max(lifespan, 1),
+    })
+
+    u_vid = np.clip(int_days.astype(float) / max(lifespan, 1), 0.0, 1.0)
     bin_idx = _bin_index(u_vid, N_BINS)
     bin_views = np.bincount(bin_idx, weights=views, minlength=N_BINS)
     bin_counts = np.bincount(bin_idx, minlength=N_BINS)
     total_v = bin_views.sum()
     total_c = bin_counts.sum()
-    bins = pd.DataFrame(
-        {
-            "music_id": music_id,
-            "bin": np.arange(N_BINS),
-            "u_center": (np.arange(N_BINS) + 0.5) / N_BINS,
-            "share_of_views": bin_views / total_v if total_v > 0 else 0.0,
-            "share_of_videos": bin_counts / total_c if total_c > 0 else 0.0,
-        }
-    )
+
+    bins = pd.DataFrame({
+        "music_id": [music_id] * N_BINS,
+        "bin": np.arange(N_BINS),
+        "u_center": (np.arange(N_BINS) + 0.5) / N_BINS,
+        "share_of_views": bin_views / total_v if total_v > 0 else 0.0,
+        "share_of_videos": bin_counts / total_c if total_c > 0 else 0.0,
+    })
 
     peak_day_views = int(daily.loc[daily["views_sum"].idxmax(), "day_index"]) if daily["views_sum"].sum() > 0 else 0
     peak_day_count = int(daily.loc[daily["video_count"].idxmax(), "day_index"]) if daily["video_count"].sum() > 0 else 0
@@ -162,10 +166,10 @@ def _weekly_from_daily(daily: pd.DataFrame, lifespan: int, music_id: str) -> pd.
     weekly = full.merge(weekly, on="week_index", how="left").fillna(
         {"views_sum": 0, "video_count": 0}
     )
+    weekly["music_id"] = music_id
     weekly["views_sum"] = weekly["views_sum"].astype(np.int64)
     weekly["video_count"] = weekly["video_count"].astype(int)
     weekly["u"] = (weekly["week_index"] * 7 + 3.5) / max(lifespan, 1)
-    weekly["music_id"] = music_id
     return weekly
 
 
@@ -185,9 +189,10 @@ def _process_mode(
         if lifespan < MIN_LIFESPAN_DAYS:
             continue
 
-        daily, bins, peak_d_v, peak_d_c = _daily_and_bins(grp, start, lifespan, str(music_id))
+        str_music_id = str(music_id)
+        daily, bins, peak_d_v, peak_d_c = _daily_and_bins(grp, start, lifespan, str_music_id)
         daily_rows.append(daily)
-        weekly_rows.append(_weekly_from_daily(daily, lifespan, str(music_id)))
+        weekly_rows.append(_weekly_from_daily(daily, lifespan, str_music_id))
         bin_rows.append(bins)
 
         base = _metrics_for_group(
@@ -206,7 +211,7 @@ def _process_mode(
         )
 
         row = {
-            "music_id": str(music_id),
+            "music_id": str_music_id,
             "lifespan_days": lifespan,
             "n_videos": len(grp),
             "total_views": int(grp["total_views"].sum()),

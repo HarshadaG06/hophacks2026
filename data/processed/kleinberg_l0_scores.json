@@ -1,3002 +1,2492 @@
 {
-  "230910198494683136": {
-    "l0_span_weeks": 152.5504,
-    "l0_start_u": 0.002106,
+  "6883042606616414208": {
+    "l0_span_weeks": 23.9482,
+    "l0_start_u": 0.001081,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.914428
-  },
-  "5000000001440736256": {
-    "l0_span_weeks": 158.9141,
-    "l0_start_u": 0.00038,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.130177
-  },
-  "5000000001448892416": {
-    "l0_span_weeks": 47.802,
-    "l0_start_u": 0.009574,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 36.79761
-  },
-  "6432077887372790784": {
-    "l0_span_weeks": 109.4655,
-    "l0_start_u": 0.004601,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.500709
-  },
-  "6433566413058739200": {
-    "l0_span_weeks": 158.5294,
-    "l0_start_u": 0.002705,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.083121
-  },
-  "6497067587325660160": {
-    "l0_span_weeks": 117.6137,
-    "l0_start_u": 0.001002,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.247336
-  },
-  "6586947002464996352": {
-    "l0_span_weeks": 169.1605,
-    "l0_start_u": 0.004858,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.872721
-  },
-  "6590643178271935488": {
-    "l0_span_weeks": 158.5644,
-    "l0_start_u": 0.002692,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 5.966032
-  },
-  "6618871733141113856": {
-    "l0_span_weeks": 168.6508,
-    "l0_start_u": 0.005777,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 20.794449
-  },
-  "6655492047723564032": {
-    "l0_span_weeks": 155.5827,
-    "l0_start_u": 0.002415,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.140896
-  },
-  "6688272830112566272": {
-    "l0_span_weeks": 156.1995,
-    "l0_start_u": 0.004855,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 5.973132
-  },
-  "6692683186809359360": {
-    "l0_span_weeks": 157.8434,
-    "l0_start_u": 0.006073,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.447062
-  },
-  "6696413461443774464": {
-    "l0_span_weeks": 98.1068,
-    "l0_start_u": 0.009027,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.580307
-  },
-  "6696419964074592256": {
-    "l0_span_weeks": 135.4953,
-    "l0_start_u": 0.002451,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.900609
-  },
-  "6696503905120946176": {
-    "l0_span_weeks": 102.9945,
-    "l0_start_u": 0.002384,
-    "l0_end_u": 0.999564,
-    "l0_baseline_posts_per_week": 11.243324
-  },
-  "6704973888922601472": {
-    "l0_span_weeks": 150.0619,
-    "l0_start_u": 0.006138,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.062102
-  },
-  "6704975150896384000": {
-    "l0_span_weeks": 156.9707,
-    "l0_start_u": 0.005556,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.581592
-  },
-  "6704975207511115776": {
-    "l0_span_weeks": 158.7876,
-    "l0_start_u": 0.000688,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.787995
-  },
-  "6704985044194166784": {
-    "l0_span_weeks": 154.8024,
-    "l0_start_u": 0.001258,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.948015
-  },
-  "6706436817605888000": {
-    "l0_span_weeks": 155.9044,
-    "l0_start_u": 0.004903,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.273073
-  },
-  "6711980022204206080": {
-    "l0_span_weeks": 145.0069,
-    "l0_start_u": 0.003965,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.84762
-  },
-  "6712420715863214080": {
-    "l0_span_weeks": 152.3222,
-    "l0_start_u": 0.003679,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.173685
-  },
-  "6714159100260813824": {
-    "l0_span_weeks": 140.8185,
-    "l0_start_u": 0.006822,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.273058
-  },
-  "6715195986316101632": {
-    "l0_span_weeks": 158.4872,
-    "l0_start_u": 0.002087,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.8209
-  },
-  "6715196271927232512": {
-    "l0_span_weeks": 155.7365,
-    "l0_start_u": 0.001506,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.42618
-  },
-  "6715714365183494144": {
-    "l0_span_weeks": 123.992,
-    "l0_start_u": 0.006151,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.03284
-  },
-  "6715976683607820288": {
-    "l0_span_weeks": 157.3044,
-    "l0_start_u": 0.002217,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.154225
-  },
-  "6717101424649439232": {
-    "l0_span_weeks": 137.2298,
-    "l0_start_u": 0.000115,
-    "l0_end_u": 0.997632,
-    "l0_baseline_posts_per_week": 7.250614
-  },
-  "6722656094272883712": {
-    "l0_span_weeks": 181.6415,
-    "l0_start_u": 0.001934,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.574216
-  },
-  "6728562975734515712": {
-    "l0_span_weeks": 173.0631,
-    "l0_start_u": 0.005069,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 37.743467
-  },
-  "6729959230851254272": {
-    "l0_span_weeks": 158.5016,
-    "l0_start_u": 0.002734,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.633973
-  },
-  "6732536571318257664": {
-    "l0_span_weeks": 159.9382,
-    "l0_start_u": 0.00026,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.343809
-  },
-  "6733266551195172864": {
-    "l0_span_weeks": 159.0126,
-    "l0_start_u": 0.005797,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.225923
-  },
-  "6736016676434757632": {
-    "l0_span_weeks": 157.2956,
-    "l0_start_u": 0.004433,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.948981
-  },
-  "6738456583379880960": {
-    "l0_span_weeks": 177.0518,
-    "l0_start_u": 0.005316,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.429342
-  },
-  "6740249715385829376": {
-    "l0_span_weeks": 157.692,
-    "l0_start_u": 0.006148,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 33.692263
-  },
-  "6741087015321749504": {
-    "l0_span_weeks": 122.854,
-    "l0_start_u": 0.000653,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.018835
-  },
-  "6741656848987850752": {
-    "l0_span_weeks": 149.335,
-    "l0_start_u": 0.003997,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.294473
-  },
-  "6746993352891189248": {
-    "l0_span_weeks": 173.2028,
-    "l0_start_u": 0.004538,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 52.25667
-  },
-  "6755505385160869888": {
-    "l0_span_weeks": 39.1163,
-    "l0_start_u": 0.020118,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 60.716407
-  },
-  "6755577309127772160": {
-    "l0_span_weeks": 158.8399,
-    "l0_start_u": 0.000482,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 5.892725
-  },
-  "6756177818679265280": {
-    "l0_span_weeks": 158.655,
-    "l0_start_u": 0.001884,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.597489
+    "l0_baseline_posts_per_week": 156.462381
   },
   "6756494843523893248": {
-    "l0_span_weeks": 128.41,
-    "l0_start_u": 0.003182,
+    "l0_span_weeks": 23.8456,
+    "l0_start_u": 0.001675,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.715673
-  },
-  "6756879114637934592": {
-    "l0_span_weeks": 156.8739,
-    "l0_start_u": 0.000362,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.234306
-  },
-  "6756879114637967360": {
-    "l0_span_weeks": 158.8199,
-    "l0_start_u": 0.000574,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.143563
-  },
-  "6757175541436008448": {
-    "l0_span_weeks": 91.828,
-    "l0_start_u": 0.001655,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 27.007012
-  },
-  "6766128122128500736": {
-    "l0_span_weeks": 171.9749,
-    "l0_start_u": 4.8e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.210644
-  },
-  "6768726019651143680": {
-    "l0_span_weeks": 163.5471,
-    "l0_start_u": 0.002161,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.077759
-  },
-  "6769046027488987136": {
-    "l0_span_weeks": 168.0129,
-    "l0_start_u": 0.005822,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 22.045925
-  },
-  "6771640057083201536": {
-    "l0_span_weeks": 159.9864,
-    "l0_start_u": 0.004953,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.032188
-  },
-  "6771810675950880768": {
-    "l0_span_weeks": 156.327,
-    "l0_start_u": 0.003545,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 22.855933
-  },
-  "6772235001174951936": {
-    "l0_span_weeks": 85.8998,
-    "l0_start_u": 0.001056,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.223548
-  },
-  "6777237779509151744": {
-    "l0_span_weeks": 151.4066,
-    "l0_start_u": 0.000995,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.538683
-  },
-  "6777274113254754304": {
-    "l0_span_weeks": 162.7057,
-    "l0_start_u": 0.001744,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 33.127295
-  },
-  "6777279827805390848": {
-    "l0_span_weeks": 157.7276,
-    "l0_start_u": 0.00121,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.893354
-  },
-  "6777331815179880448": {
-    "l0_span_weeks": 155.0001,
-    "l0_start_u": 0.003211,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.077416
-  },
-  "6781515050600368128": {
-    "l0_span_weeks": 159.9057,
-    "l0_start_u": 0.000449,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.848376
-  },
-  "6786482137315936256": {
-    "l0_span_weeks": 149.9114,
-    "l0_start_u": 0.000428,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.532299
-  },
-  "6790815405423200256": {
-    "l0_span_weeks": 54.149,
-    "l0_start_u": 0.015299,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 33.943355
-  },
-  "6792136995872180224": {
-    "l0_span_weeks": 156.3477,
-    "l0_start_u": 0.003288,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.932987
-  },
-  "6792956373559691264": {
-    "l0_span_weeks": 172.1445,
-    "l0_start_u": 0.004102,
-    "l0_end_u": 0.999979,
-    "l0_baseline_posts_per_week": 11.228942
-  },
-  "6792956462558611456": {
-    "l0_span_weeks": 129.8026,
-    "l0_start_u": 0.007088,
-    "l0_end_u": 0.999029,
-    "l0_baseline_posts_per_week": 7.157021
-  },
-  "6793091483172866048": {
-    "l0_span_weeks": 135.2892,
-    "l0_start_u": 0.002418,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.529873
-  },
-  "6795585271782967296": {
-    "l0_span_weeks": 158.8686,
-    "l0_start_u": 0.000649,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.407811
-  },
-  "6799317023240226816": {
-    "l0_span_weeks": 27.5359,
-    "l0_start_u": 0.014775,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 35.735148
-  },
-  "6799426662028036096": {
-    "l0_span_weeks": 150.4832,
-    "l0_start_u": 0.002296,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.436048
-  },
-  "6800994519341878272": {
-    "l0_span_weeks": 117.8421,
-    "l0_start_u": 8.3e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.350159
-  },
-  "6802349518965704704": {
-    "l0_span_weeks": 156.2587,
-    "l0_start_u": 0.003906,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.016655
-  },
-  "6806083515436779520": {
-    "l0_span_weeks": 97.6477,
-    "l0_start_u": 0.002943,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 34.368457
-  },
-  "6806496660747766784": {
-    "l0_span_weeks": 152.3885,
-    "l0_start_u": 0.003791,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.807902
-  },
-  "6810180973628491776": {
-    "l0_span_weeks": 159.7839,
-    "l0_start_u": 0.000518,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.177595
-  },
-  "6814378834477975552": {
-    "l0_span_weeks": 151.3811,
-    "l0_start_u": 0.006009,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.49731
-  },
-  "6815709646314163200": {
-    "l0_span_weeks": 100.0287,
-    "l0_start_u": 0.009649,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.936861
-  },
-  "6815712093161916416": {
-    "l0_span_weeks": 128.9554,
-    "l0_start_u": 0.000279,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 28.242329
-  },
-  "6817180237894256640": {
-    "l0_span_weeks": 158.4185,
-    "l0_start_u": 0.000314,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.486363
-  },
-  "6817193198436255744": {
-    "l0_span_weeks": 168.1927,
-    "l0_start_u": 0.004778,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 53.272236
-  },
-  "6817206998401026048": {
-    "l0_span_weeks": 156.0981,
-    "l0_start_u": 0.005242,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.381355
-  },
-  "6817208513685620736": {
-    "l0_span_weeks": 159.1767,
-    "l0_start_u": 0.004746,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 42.160694
-  },
-  "6817306305766639616": {
-    "l0_span_weeks": 158.8612,
-    "l0_start_u": 0.000629,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.887214
-  },
-  "6817306569852585984": {
-    "l0_span_weeks": 158.5188,
-    "l0_start_u": 0.002829,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.531521
-  },
-  "6817342688401033216": {
-    "l0_span_weeks": 105.1374,
-    "l0_start_u": 0.007017,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.126984
-  },
-  "6817422635597563904": {
-    "l0_span_weeks": 156.2322,
-    "l0_start_u": 0.004564,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.713789
-  },
-  "6817434137683560448": {
-    "l0_span_weeks": 157.3673,
-    "l0_start_u": 0.003784,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.88069
-  },
-  "6817460952171022336": {
-    "l0_span_weeks": 157.1173,
-    "l0_start_u": 0.005581,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 20.424231
-  },
-  "6817568979012290560": {
-    "l0_span_weeks": 157.5703,
-    "l0_start_u": 0.002704,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.550398
-  },
-  "6817665487665629184": {
-    "l0_span_weeks": 158.7647,
-    "l0_start_u": 0.001475,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 35.278618
-  },
-  "6817677195201218560": {
-    "l0_span_weeks": 155.5697,
-    "l0_start_u": 0.001714,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.811875
-  },
-  "6826181364790855680": {
-    "l0_span_weeks": 152.3268,
-    "l0_start_u": 0.005742,
-    "l0_end_u": 0.999487,
-    "l0_baseline_posts_per_week": 6.394147
-  },
-  "6827446890867460096": {
-    "l0_span_weeks": 152.9203,
-    "l0_start_u": 0.000276,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.189352
-  },
-  "6832229089919649792": {
-    "l0_span_weeks": 142.354,
-    "l0_start_u": 0.004313,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.390028
-  },
-  "6832618984580335616": {
-    "l0_span_weeks": 163.0874,
-    "l0_start_u": 0.004568,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.761638
-  },
-  "6837321683213223936": {
-    "l0_span_weeks": 15.9079,
-    "l0_start_u": 0.003389,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 83.543478
-  },
-  "6839324086548563968": {
-    "l0_span_weeks": 162.0756,
-    "l0_start_u": 0.005559,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.469491
-  },
-  "6839369555425363968": {
-    "l0_span_weeks": 92.2826,
-    "l0_start_u": 0.00744,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.066902
-  },
-  "6842582526297393152": {
-    "l0_span_weeks": 158.8222,
-    "l0_start_u": 0.000163,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 5.817825
-  },
-  "6844083891116967936": {
-    "l0_span_weeks": 159.7598,
-    "l0_start_u": 0.000386,
-    "l0_end_u": 0.999777,
-    "l0_baseline_posts_per_week": 10.515786
-  },
-  "6850125286504138752": {
-    "l0_span_weeks": 128.8733,
-    "l0_start_u": 0.000925,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.41639
-  },
-  "6860502663327385600": {
-    "l0_span_weeks": 157.1479,
-    "l0_start_u": 0.00229,
-    "l0_end_u": 0.998699,
-    "l0_baseline_posts_per_week": 6.484338
-  },
-  "6860515009819052032": {
-    "l0_span_weeks": 140.6708,
-    "l0_start_u": 0.001567,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.694057
-  },
-  "6860551076676896768": {
-    "l0_span_weeks": 158.0285,
-    "l0_start_u": 0.006002,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.737492
-  },
-  "6865841209802229760": {
-    "l0_span_weeks": 143.393,
-    "l0_start_u": 0.003817,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.845569
-  },
-  "6872915740836497408": {
-    "l0_span_weeks": 125.438,
-    "l0_start_u": 0.003104,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.629267
-  },
-  "6873501791145691136": {
-    "l0_span_weeks": 157.641,
-    "l0_start_u": 0.002218,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 53.691603
-  },
-  "6873613247912609792": {
-    "l0_span_weeks": 116.0468,
-    "l0_start_u": 0.007109,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.03084
-  },
-  "6883042606616414208": {
-    "l0_span_weeks": 94.1234,
-    "l0_start_u": 0.007194,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 40.425669
-  },
-  "6886867274171418624": {
-    "l0_span_weeks": 152.5182,
-    "l0_start_u": 0.002683,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.316921
-  },
-  "6889607397178869760": {
-    "l0_span_weeks": 140.0319,
-    "l0_start_u": 0.006861,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.576387
-  },
-  "6891407679856592896": {
-    "l0_span_weeks": 134.1294,
-    "l0_start_u": 0.0062,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.242873
-  },
-  "6895811481653266432": {
-    "l0_span_weeks": 151.5461,
-    "l0_start_u": 0.002558,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 24.804336
-  },
-  "6906212382675044352": {
-    "l0_span_weeks": 126.2579,
-    "l0_start_u": 0.004932,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.20926
-  },
-  "6917488734020339712": {
-    "l0_span_weeks": 144.837,
-    "l0_start_u": 0.000422,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.870918
-  },
-  "6917595301519820800": {
-    "l0_span_weeks": 132.5534,
-    "l0_start_u": 0.000192,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 48.870858
-  },
-  "6921367719611500544": {
-    "l0_span_weeks": 152.6214,
-    "l0_start_u": 0.002116,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.425378
-  },
-  "6923977375588583424": {
-    "l0_span_weeks": 151.6303,
-    "l0_start_u": 0.002146,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.135499
-  },
-  "6925246939554383872": {
-    "l0_span_weeks": 158.3927,
-    "l0_start_u": 0.003783,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.471487
-  },
-  "6925569841169205248": {
-    "l0_span_weeks": 147.6421,
-    "l0_start_u": 0.001147,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.714602
-  },
-  "6925827158761801728": {
-    "l0_span_weeks": 108.7451,
-    "l0_start_u": 0.00097,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.910747
-  },
-  "6925859865231362048": {
-    "l0_span_weeks": 149.3994,
-    "l0_start_u": 0.001925,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.19815
-  },
-  "6926382671288109056": {
-    "l0_span_weeks": 146.6896,
-    "l0_start_u": 0.000774,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.019047
-  },
-  "6927016038370428928": {
-    "l0_span_weeks": 153.1075,
-    "l0_start_u": 0.005741,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 64.457973
-  },
-  "6927287043793881088": {
-    "l0_span_weeks": 157.5995,
-    "l0_start_u": 0.002275,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.498763
-  },
-  "6928469608437385216": {
-    "l0_span_weeks": 124.8964,
-    "l0_start_u": 0.003138,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.839328
-  },
-  "6928675620993894400": {
-    "l0_span_weeks": 156.6438,
-    "l0_start_u": 0.001856,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.105291
-  },
-  "6929278627703949312": {
-    "l0_span_weeks": 42.7891,
-    "l0_start_u": 0.021655,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 49.311661
-  },
-  "6930001180336688128": {
-    "l0_span_weeks": 138.9703,
-    "l0_start_u": 0.004855,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.664578
-  },
-  "6930856986405850112": {
-    "l0_span_weeks": 139.4722,
-    "l0_start_u": 0.005016,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.804224
-  },
-  "6930868722663950336": {
-    "l0_span_weeks": 150.6489,
-    "l0_start_u": 0.002155,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.273572
-  },
-  "6945567438809418752": {
-    "l0_span_weeks": 145.6648,
-    "l0_start_u": 0.002252,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.178643
-  },
-  "6967418269091269632": {
-    "l0_span_weeks": 155.1583,
-    "l0_start_u": 0.004936,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 20.843223
-  },
-  "6971624755921292288": {
-    "l0_span_weeks": 153.927,
-    "l0_start_u": 0.006234,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.847402
-  },
-  "6974451099088455680": {
-    "l0_span_weeks": 134.1427,
-    "l0_start_u": 0.006291,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.564444
-  },
-  "6975355332137093120": {
-    "l0_span_weeks": 147.5318,
-    "l0_start_u": 0.002778,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.23234
-  },
-  "6980133134746519552": {
-    "l0_span_weeks": 116.8901,
-    "l0_start_u": 0.000372,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 20.455112
-  },
-  "6981828410792216576": {
-    "l0_span_weeks": 156.8373,
-    "l0_start_u": 0.000706,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 38.409236
-  },
-  "6982541212746008576": {
-    "l0_span_weeks": 153.5028,
-    "l0_start_u": 0.0028,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 76.435084
-  },
-  "6982680091830519808": {
-    "l0_span_weeks": 70.3395,
-    "l0_start_u": 0.006871,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.193154
-  },
-  "6988190007181887488": {
-    "l0_span_weeks": 160.7251,
-    "l0_start_u": 0.001482,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.361016
-  },
-  "6989678457265425408": {
-    "l0_span_weeks": 128.0494,
-    "l0_start_u": 0.00232,
-    "l0_end_u": 0.997155,
-    "l0_baseline_posts_per_week": 7.86415
-  },
-  "6990441958090999808": {
-    "l0_span_weeks": 157.9117,
-    "l0_start_u": 0.00628,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.47365
-  },
-  "6997760714060335104": {
-    "l0_span_weeks": 122.8293,
-    "l0_start_u": 0.001342,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.659848
-  },
-  "6997838557607888896": {
-    "l0_span_weeks": 156.4824,
-    "l0_start_u": 0.003264,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 23.54259
-  },
-  "6997840505614632960": {
-    "l0_span_weeks": 137.3399,
-    "l0_start_u": 0.004611,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.016607
-  },
-  "6998574909743958016": {
-    "l0_span_weeks": 157.8358,
-    "l0_start_u": 0.000932,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.558489
-  },
-  "6998997669163042816": {
-    "l0_span_weeks": 151.2161,
-    "l0_start_u": 0.005112,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 28.561777
-  },
-  "6999652139261757440": {
-    "l0_span_weeks": 153.6864,
-    "l0_start_u": 0.000911,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.477916
-  },
-  "6999894365447391232": {
-    "l0_span_weeks": 156.9727,
-    "l0_start_u": 0.006312,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 18.812192
-  },
-  "7005125708066342912": {
-    "l0_span_weeks": 144.4905,
-    "l0_start_u": 0.001631,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.848396
-  },
-  "7005871610842318848": {
-    "l0_span_weeks": 156.7562,
-    "l0_start_u": 0.000682,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.258126
-  },
-  "7006274970402473984": {
-    "l0_span_weeks": 126.797,
-    "l0_start_u": 0.001165,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.880339
-  },
-  "7010248629571848192": {
-    "l0_span_weeks": 122.3418,
-    "l0_start_u": 0.004516,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.051212
-  },
-  "7013588396048943104": {
-    "l0_span_weeks": 156.2603,
-    "l0_start_u": 0.004226,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.744894
-  },
-  "7013712211868813312": {
-    "l0_span_weeks": 139.5249,
-    "l0_start_u": 0.00118,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.829608
-  },
-  "7021220308539410432": {
-    "l0_span_weeks": 111.8536,
-    "l0_start_u": 0.000294,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 37.155719
-  },
-  "7022937679340718080": {
-    "l0_span_weeks": 149.7031,
-    "l0_start_u": 0.001741,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.299133
-  },
-  "7027184549071161344": {
-    "l0_span_weeks": 151.7181,
-    "l0_start_u": 0.001467,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.610946
-  },
-  "7029264560691416064": {
-    "l0_span_weeks": 152.8126,
-    "l0_start_u": 0.001076,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.060522
-  },
-  "7030869625311086592": {
-    "l0_span_weeks": 170.6899,
-    "l0_start_u": 0.000943,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.626053
-  },
-  "7031101555747080192": {
-    "l0_span_weeks": 154.6994,
-    "l0_start_u": 0.001794,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 54.072598
-  },
-  "7033128850808704000": {
-    "l0_span_weeks": 150.7491,
-    "l0_start_u": 0.001083,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.071352
-  },
-  "7035383538942053376": {
-    "l0_span_weeks": 82.2546,
-    "l0_start_u": 0.00886,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 28.715718
-  },
-  "7043672073613936640": {
-    "l0_span_weeks": 158.5064,
-    "l0_start_u": 0.002868,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 50.74874
-  },
-  "7050214893630737408": {
-    "l0_span_weeks": 27.8524,
-    "l0_start_u": 0.002787,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 41.68398
-  },
-  "7050547465157642240": {
-    "l0_span_weeks": 135.5033,
-    "l0_start_u": 0.003501,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.243345
-  },
-  "7055051802865862656": {
-    "l0_span_weeks": 123.8223,
-    "l0_start_u": 0.00142,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.287506
-  },
-  "7055205517962004480": {
-    "l0_span_weeks": 145.4511,
-    "l0_start_u": 0.003753,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.077231
-  },
-  "7055417725014771712": {
-    "l0_span_weeks": 16.6625,
-    "l0_start_u": 0.020022,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 88.521941
-  },
-  "7055593201247193088": {
-    "l0_span_weeks": 89.7509,
-    "l0_start_u": 0.009015,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.267292
-  },
-  "7055804490242377728": {
-    "l0_span_weeks": 148.3543,
-    "l0_start_u": 0.004109,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.942417
-  },
-  "7057302525195799552": {
-    "l0_span_weeks": 134.8025,
-    "l0_start_u": 0.001341,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.818847
-  },
-  "7060824478627940352": {
-    "l0_span_weeks": 146.6527,
-    "l0_start_u": 0.005612,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.432815
-  },
-  "7062752064783026176": {
-    "l0_span_weeks": 114.3165,
-    "l0_start_u": 0.005616,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 38.690833
-  },
-  "7064643531196860416": {
-    "l0_span_weeks": 71.4956,
-    "l0_start_u": 0.00276,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.861488
-  },
-  "7067653463425714176": {
-    "l0_span_weeks": 154.6848,
-    "l0_start_u": 0.001118,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.832549
-  },
-  "7072513628145977344": {
-    "l0_span_weeks": 162.3751,
-    "l0_start_u": 0.003684,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 130.290933
-  },
-  "7073558921897577472": {
-    "l0_span_weeks": 128.9149,
-    "l0_start_u": 0.000629,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.206305
-  },
-  "7073662980809820160": {
-    "l0_span_weeks": 137.7413,
-    "l0_start_u": 0.001763,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.913383
-  },
-  "7075508162756872192": {
-    "l0_span_weeks": 153.4856,
-    "l0_start_u": 0.00325,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.202538
-  },
-  "7078749955761899520": {
-    "l0_span_weeks": 139.3368,
-    "l0_start_u": 0.003981,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.626581
-  },
-  "7080856813989677056": {
-    "l0_span_weeks": 155.1488,
-    "l0_start_u": 0.005289,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 24.466828
-  },
-  "7083229887985403904": {
-    "l0_span_weeks": 121.0144,
-    "l0_start_u": 0.006953,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.817254
-  },
-  "7084465663108089856": {
-    "l0_span_weeks": 155.6737,
-    "l0_start_u": 0.001274,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 35.510177
-  },
-  "7086103923752175616": {
-    "l0_span_weeks": 154.8342,
-    "l0_start_u": 0.000913,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 26.641408
-  },
-  "7087902657213384704": {
-    "l0_span_weeks": 143.4547,
-    "l0_start_u": 0.005643,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.058279
-  },
-  "7089644688840099840": {
-    "l0_span_weeks": 142.3796,
-    "l0_start_u": 0.00426,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.745923
-  },
-  "7095736264514717696": {
-    "l0_span_weeks": 123.7557,
-    "l0_start_u": 0.002708,
-    "l0_end_u": 0.997301,
-    "l0_baseline_posts_per_week": 15.554839
-  },
-  "7096858059892328448": {
-    "l0_span_weeks": 158.7121,
-    "l0_start_u": 0.000251,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.912936
-  },
-  "7097255338264496128": {
-    "l0_span_weeks": 147.1038,
-    "l0_start_u": 0.005882,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 18.735071
-  },
-  "7098516425689762816": {
-    "l0_span_weeks": 157.9089,
-    "l0_start_u": 0.006159,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.198058
-  },
-  "7098939394085702656": {
-    "l0_span_weeks": 157.5511,
-    "l0_start_u": 0.002686,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.513073
-  },
-  "7103996508323743744": {
-    "l0_span_weeks": 154.0126,
-    "l0_start_u": 0.00317,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.596865
-  },
-  "7107825905426237440": {
-    "l0_span_weeks": 133.3555,
-    "l0_start_u": 0.004161,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.815373
-  },
-  "7116400670005872640": {
-    "l0_span_weeks": 126.411,
-    "l0_start_u": 0.004179,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.563169
-  },
-  "7118185058074397696": {
-    "l0_span_weeks": 122.8514,
-    "l0_start_u": 0.004838,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.773945
-  },
-  "7122459821244155904": {
-    "l0_span_weeks": 151.5155,
-    "l0_start_u": 0.001503,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.249366
-  },
-  "7122499778310572032": {
-    "l0_span_weeks": 115.2488,
-    "l0_start_u": 0.006098,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.193172
-  },
-  "7128165131732732928": {
-    "l0_span_weeks": 148.8853,
-    "l0_start_u": 0.000524,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.212838
-  },
-  "7129708623646689280": {
-    "l0_span_weeks": 142.4563,
-    "l0_start_u": 0.003544,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.188167
-  },
-  "7133276030545954816": {
-    "l0_span_weeks": 126.584,
-    "l0_start_u": 0.003164,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.868923
-  },
-  "7133300811710334976": {
-    "l0_span_weeks": 112.7708,
-    "l0_start_u": 0.000915,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.84501
-  },
-  "7133303460480419840": {
-    "l0_span_weeks": 101.5407,
-    "l0_start_u": 0.003497,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 23.369939
-  },
-  "7133332967409059840": {
-    "l0_span_weeks": 128.5746,
-    "l0_start_u": 0.003131,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.600674
-  },
-  "7136056894392633344": {
-    "l0_span_weeks": 128.8864,
-    "l0_start_u": 0.00059,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.834768
-  },
-  "7136115827699124224": {
-    "l0_span_weeks": 167.0443,
-    "l0_start_u": 0.003162,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.966621
-  },
-  "7136445672676411392": {
-    "l0_span_weeks": 122.8046,
-    "l0_start_u": 0.000972,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 25.039774
-  },
-  "7137543466216605696": {
-    "l0_span_weeks": 146.2028,
-    "l0_start_u": 0.003901,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 6.299467
-  },
-  "7140790914893237248": {
-    "l0_span_weeks": 106.388,
-    "l0_start_u": 0.005095,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.625147
-  },
-  "7142169219956738048": {
-    "l0_span_weeks": 129.84,
-    "l0_start_u": 0.0042,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.496305
-  },
-  "7142926872781817856": {
-    "l0_span_weeks": 143.2883,
-    "l0_start_u": 0.003669,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.3138
-  },
-  "7145623012119676928": {
-    "l0_span_weeks": 128.1585,
-    "l0_start_u": 0.002471,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.091544
-  },
-  "7145684767189501952": {
-    "l0_span_weeks": 82.5203,
-    "l0_start_u": 0.001652,
-    "l0_end_u": 0.997587,
-    "l0_baseline_posts_per_week": 21.170544
-  },
-  "7146319288964483072": {
-    "l0_span_weeks": 117.2529,
-    "l0_start_u": 0.00608,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 24.118808
-  },
-  "7146370280443627520": {
-    "l0_span_weeks": 114.1065,
-    "l0_start_u": 0.007238,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 44.388355
-  },
-  "7150442374261377024": {
-    "l0_span_weeks": 126.1101,
-    "l0_start_u": 0.006979,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.358719
-  },
-  "7151313372519073792": {
-    "l0_span_weeks": 121.0133,
-    "l0_start_u": 0.008019,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.643572
-  },
-  "7152796746278504448": {
-    "l0_span_weeks": 131.7675,
-    "l0_start_u": 0.001714,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.92604
-  },
-  "7157012389110482944": {
-    "l0_span_weeks": 125.6849,
-    "l0_start_u": 0.001914,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 26.136794
-  },
-  "7158886387671960576": {
-    "l0_span_weeks": 109.2262,
-    "l0_start_u": 0.005624,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.812422
-  },
-  "7163694917208770560": {
-    "l0_span_weeks": 151.4228,
-    "l0_start_u": 0.003425,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.488963
-  },
-  "7167189298565875712": {
-    "l0_span_weeks": 130.4745,
-    "l0_start_u": 2.2e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.593276
-  },
-  "7169970585156454400": {
-    "l0_span_weeks": 144.2132,
-    "l0_start_u": 0.005185,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 22.515277
-  },
-  "7170212466167646208": {
-    "l0_span_weeks": 138.9981,
-    "l0_start_u": 0.007135,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 59.374911
-  },
-  "7173139968540297216": {
-    "l0_span_weeks": 134.9404,
-    "l0_start_u": 0.000333,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.959508
-  },
-  "7179679214566639616": {
-    "l0_span_weeks": 118.759,
-    "l0_start_u": 0.001048,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 35.020509
-  },
-  "7180363119678457856": {
-    "l0_span_weeks": 120.9345,
-    "l0_start_u": 0.00649,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.037409
-  },
-  "7182260268951422976": {
-    "l0_span_weeks": 153.6178,
-    "l0_start_u": 0.004863,
-    "l0_end_u": 0.999612,
-    "l0_baseline_posts_per_week": 6.438058
-  },
-  "7186383409608919040": {
-    "l0_span_weeks": 121.6103,
-    "l0_start_u": 0.002756,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.609468
-  },
-  "7187218359857973248": {
-    "l0_span_weeks": 131.6463,
-    "l0_start_u": 0.004577,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.254285
-  },
-  "7187816271247853568": {
-    "l0_span_weeks": 126.4736,
-    "l0_start_u": 8e-06,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.370381
-  },
-  "7187898690403567616": {
-    "l0_span_weeks": 117.8124,
-    "l0_start_u": 0.001565,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.973483
-  },
-  "7189151224833247232": {
-    "l0_span_weeks": 156.4525,
-    "l0_start_u": 0.005594,
-    "l0_end_u": 0.997593,
-    "l0_baseline_posts_per_week": 8.922838
-  },
-  "7190203390691903488": {
-    "l0_span_weeks": 128.6964,
-    "l0_start_u": 0.002337,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.816845
-  },
-  "7190453724102264832": {
-    "l0_span_weeks": 87.8466,
-    "l0_start_u": 0.010319,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.656677
-  },
-  "7197025723688454144": {
-    "l0_span_weeks": 120.3601,
-    "l0_start_u": 0.006949,
-    "l0_end_u": 0.995823,
-    "l0_baseline_posts_per_week": 9.014614
-  },
-  "7197097971182209024": {
-    "l0_span_weeks": 120.957,
-    "l0_start_u": 3.4e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.622546
-  },
-  "7198380212156008448": {
-    "l0_span_weeks": 158.5941,
-    "l0_start_u": 0.002162,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 5.958608
-  },
-  "7200065594014731264": {
-    "l0_span_weeks": 138.1983,
-    "l0_start_u": 0.005369,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.511005
-  },
-  "7200478944389564416": {
-    "l0_span_weeks": 93.0269,
-    "l0_start_u": 0.006269,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.4146
-  },
-  "7200846574183221248": {
-    "l0_span_weeks": 150.1453,
-    "l0_start_u": 0.005441,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.685666
-  },
-  "7201288091355614208": {
-    "l0_span_weeks": 98.4548,
-    "l0_start_u": 0.005503,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 27.190146
-  },
-  "7208642853458004992": {
-    "l0_span_weeks": 100.6513,
-    "l0_start_u": 0.008485,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.737043
-  },
-  "7208656820190399488": {
-    "l0_span_weeks": 51.1714,
-    "l0_start_u": 0.01483,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 48.230035
-  },
-  "7211414788142794752": {
-    "l0_span_weeks": 120.7612,
-    "l0_start_u": 0.001341,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.187369
-  },
-  "7212600172143085568": {
-    "l0_span_weeks": 155.863,
-    "l0_start_u": 0.00063,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 31.623921
-  },
-  "7213023502826638336": {
-    "l0_span_weeks": 45.7584,
-    "l0_start_u": 0.004531,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 28.410102
-  },
-  "7213159346610506752": {
-    "l0_span_weeks": 104.3022,
-    "l0_start_u": 0.001225,
-    "l0_end_u": 0.995932,
-    "l0_baseline_posts_per_week": 9.184852
-  },
-  "7217542291274090496": {
-    "l0_span_weeks": 123.6376,
-    "l0_start_u": 0.004777,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.009391
-  },
-  "7218376302503365632": {
-    "l0_span_weeks": 99.3349,
-    "l0_start_u": 0.00638,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 30.694148
-  },
-  "7219986800276686848": {
-    "l0_span_weeks": 66.32,
-    "l0_start_u": 0.00951,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.520504
-  },
-  "7220175238067080192": {
-    "l0_span_weeks": 121.1581,
-    "l0_start_u": 0.006766,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.685029
-  },
-  "7221312697249531904": {
-    "l0_span_weeks": 141.7655,
-    "l0_start_u": 0.001632,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.592873
-  },
-  "7226230926606501888": {
-    "l0_span_weeks": 102.5705,
-    "l0_start_u": 0.004114,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 33.635406
-  },
-  "7229395519029594112": {
-    "l0_span_weeks": 71.7897,
-    "l0_start_u": 0.002883,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.543192
-  },
-  "7229446069401160704": {
-    "l0_span_weeks": 112.0898,
-    "l0_start_u": 0.006786,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.854162
-  },
-  "7230735816774354944": {
-    "l0_span_weeks": 140.4507,
-    "l0_start_u": 0.000663,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.08574
-  },
-  "7231091243878795264": {
-    "l0_span_weeks": 156.6566,
-    "l0_start_u": 0.002041,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.452183
-  },
-  "7231997808928032768": {
-    "l0_span_weeks": 112.361,
-    "l0_start_u": 0.001992,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 85.62578
-  },
-  "7234028101880105984": {
-    "l0_span_weeks": 146.0993,
-    "l0_start_u": 0.001928,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.835779
-  },
-  "7234222652599846912": {
-    "l0_span_weeks": 55.8158,
-    "l0_start_u": 0.000904,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 29.507778
-  },
-  "7235059392331843584": {
-    "l0_span_weeks": 125.4737,
-    "l0_start_u": 0.000962,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.437911
-  },
-  "7235662417353738240": {
-    "l0_span_weeks": 44.725,
-    "l0_start_u": 0.004347,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 33.739554
-  },
-  "7236086424641980416": {
-    "l0_span_weeks": 114.0899,
-    "l0_start_u": 0.007449,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.488577
-  },
-  "7236362957471401984": {
-    "l0_span_weeks": 94.4645,
-    "l0_start_u": 0.003323,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.277082
-  },
-  "7238281523266292736": {
-    "l0_span_weeks": 10.7238,
-    "l0_start_u": 0.021055,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 204.032619
-  },
-  "7239111762301306880": {
-    "l0_span_weeks": 148.7058,
-    "l0_start_u": 0.001833,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.348502
-  },
-  "7239756792690296832": {
-    "l0_span_weeks": 140.5168,
-    "l0_start_u": 0.003412,
-    "l0_end_u": 0.994963,
-    "l0_baseline_posts_per_week": 7.201984
-  },
-  "7240200829259582464": {
-    "l0_span_weeks": 53.9269,
-    "l0_start_u": 0.016876,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 24.625917
-  },
-  "7242842630979045376": {
-    "l0_span_weeks": 116.8036,
-    "l0_start_u": 0.001542,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.604187
-  },
-  "7244851220488244224": {
-    "l0_span_weeks": 156.3587,
-    "l0_start_u": 0.00373,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 24.731596
-  },
-  "7245135636964035584": {
-    "l0_span_weeks": 126.9168,
-    "l0_start_u": 0.005736,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.596184
-  },
-  "7245492762144753664": {
-    "l0_span_weeks": 112.1972,
-    "l0_start_u": 0.000916,
-    "l0_end_u": 0.998859,
-    "l0_baseline_posts_per_week": 8.770269
-  },
-  "7245526535704430592": {
-    "l0_span_weeks": 156.4438,
-    "l0_start_u": 0.000412,
-    "l0_end_u": 0.999597,
-    "l0_baseline_posts_per_week": 6.858694
-  },
-  "7247207913034614784": {
-    "l0_span_weeks": 137.9022,
-    "l0_start_u": 0.000382,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.285488
-  },
-  "7248175565935840256": {
-    "l0_span_weeks": 100.7677,
-    "l0_start_u": 0.002208,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.533079
-  },
-  "7249675601085254656": {
-    "l0_span_weeks": 79.6373,
-    "l0_start_u": 0.004318,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 22.8285
-  },
-  "7249909820420131840": {
-    "l0_span_weeks": 108.1337,
-    "l0_start_u": 0.005133,
-    "l0_end_u": 0.998488,
-    "l0_baseline_posts_per_week": 8.52648
-  },
-  "7251622791866009600": {
-    "l0_span_weeks": 92.3881,
-    "l0_start_u": 0.006347,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.326645
-  },
-  "7251810329461147648": {
-    "l0_span_weeks": 49.5038,
-    "l0_start_u": 0.009577,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 46.582312
-  },
-  "7255011118329989120": {
-    "l0_span_weeks": 149.2574,
-    "l0_start_u": 0.004875,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 22.290348
-  },
-  "7255081252415375360": {
-    "l0_span_weeks": 132.733,
-    "l0_start_u": 0.006025,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.294846
-  },
-  "7259670311572999168": {
-    "l0_span_weeks": 133.1958,
-    "l0_start_u": 0.005457,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 23.829583
-  },
-  "7260632355633907712": {
-    "l0_span_weeks": 68.8493,
-    "l0_start_u": 0.013377,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.785925
-  },
-  "7262123212094327808": {
-    "l0_span_weeks": 70.5743,
-    "l0_start_u": 0.00598,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.928582
-  },
-  "7263241548443568128": {
-    "l0_span_weeks": 114.4119,
-    "l0_start_u": 0.00679,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.503844
-  },
-  "7266472362874947584": {
-    "l0_span_weeks": 71.6127,
-    "l0_start_u": 0.002155,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.290587
-  },
-  "7267313613491850240": {
-    "l0_span_weeks": 39.3253,
-    "l0_start_u": 0.016879,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 26.293527
-  },
-  "7267417209956632576": {
-    "l0_span_weeks": 139.0591,
-    "l0_start_u": 0.00668,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.097704
-  },
-  "7268544136268679168": {
-    "l0_span_weeks": 134.4897,
-    "l0_start_u": 0.003751,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.91882
-  },
-  "7268735501090539520": {
-    "l0_span_weeks": 6.9225,
-    "l0_start_u": 0.011021,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 286.313452
-  },
-  "7269565102079462400": {
-    "l0_span_weeks": 146.8934,
-    "l0_start_u": 9.7e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.576923
-  },
-  "7269878568987954176": {
-    "l0_span_weeks": 109.366,
-    "l0_start_u": 0.005611,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.659002
-  },
-  "7273469558665709568": {
-    "l0_span_weeks": 73.3164,
-    "l0_start_u": 0.009122,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.544034
-  },
-  "7274026617033558016": {
-    "l0_span_weeks": 125.0312,
-    "l0_start_u": 0.007579,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.34942
-  },
-  "7275451326566632448": {
-    "l0_span_weeks": 76.928,
-    "l0_start_u": 0.000741,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 27.974223
-  },
-  "7276208464174188544": {
-    "l0_span_weeks": 88.2081,
-    "l0_start_u": 0.008212,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.547501
-  },
-  "7278848944754722816": {
-    "l0_span_weeks": 72.8103,
-    "l0_start_u": 0.002173,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 20.917365
-  },
-  "7280525097285847040": {
-    "l0_span_weeks": 149.3218,
-    "l0_start_u": 0.002643,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.652453
-  },
-  "7282498671971780608": {
-    "l0_span_weeks": 137.2378,
-    "l0_start_u": 0.004964,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.440351
-  },
-  "7286030227255592960": {
-    "l0_span_weeks": 161.9961,
-    "l0_start_u": 0.004822,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.808951
-  },
-  "7286684398656359424": {
-    "l0_span_weeks": 54.9811,
-    "l0_start_u": 0.016362,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 57.01956
-  },
-  "7288041310028302336": {
-    "l0_span_weeks": 152.9147,
-    "l0_start_u": 0.000357,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.584411
-  },
-  "7288226217396242432": {
-    "l0_span_weeks": 127.338,
-    "l0_start_u": 0.005125,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 46.741736
-  },
-  "7288944607224023040": {
-    "l0_span_weeks": 124.8035,
-    "l0_start_u": 0.006522,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.203183
-  },
-  "7289130857087764480": {
-    "l0_span_weeks": 140.0868,
-    "l0_start_u": 0.006087,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 18.003122
-  },
-  "7289503994026805248": {
-    "l0_span_weeks": 77.3793,
-    "l0_start_u": 0.00722,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 100.970092
-  },
-  "7290750382500759552": {
-    "l0_span_weeks": 145.3119,
-    "l0_start_u": 0.00466,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.384119
-  },
-  "7290790746045631488": {
-    "l0_span_weeks": 70.4363,
-    "l0_start_u": 0.00754,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 27.869165
-  },
-  "7290811070539648000": {
-    "l0_span_weeks": 124.6466,
-    "l0_start_u": 0.002282,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.389369
-  },
-  "7291363788900861952": {
-    "l0_span_weeks": 135.3925,
-    "l0_start_u": 0.003679,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.979983
-  },
-  "7293145962955360256": {
-    "l0_span_weeks": 146.5857,
-    "l0_start_u": 0.001478,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 27.867655
-  },
-  "7293284592491023360": {
-    "l0_span_weeks": 149.9162,
-    "l0_start_u": 0.00362,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.558116
-  },
-  "7295929147070269440": {
-    "l0_span_weeks": 152.2461,
-    "l0_start_u": 0.004502,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.325487
-  },
-  "7296811377686841344": {
-    "l0_span_weeks": 34.8021,
-    "l0_start_u": 0.000713,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 44.422593
-  },
-  "7297042809599576064": {
-    "l0_span_weeks": 17.8999,
-    "l0_start_u": 0.036116,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 160.391611
-  },
-  "7299618713351227392": {
-    "l0_span_weeks": 74.0365,
-    "l0_start_u": 0.010774,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.437833
-  },
-  "7299763084615714816": {
-    "l0_span_weeks": 146.62,
-    "l0_start_u": 0.00231,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.418904
-  },
-  "7301372051342756864": {
-    "l0_span_weeks": 141.6122,
-    "l0_start_u": 0.002713,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.520538
-  },
-  "7302500653593562112": {
-    "l0_span_weeks": 142.1665,
-    "l0_start_u": 0.004211,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.933186
-  },
-  "7304653959367887872": {
-    "l0_span_weeks": 157.4746,
-    "l0_start_u": 1.9e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.313418
-  },
-  "7306623023414495232": {
-    "l0_span_weeks": 151.6125,
-    "l0_start_u": 0.001598,
-    "l0_end_u": 0.999988,
-    "l0_baseline_posts_per_week": 10.678536
-  },
-  "7308548149097450496": {
-    "l0_span_weeks": 155.5778,
-    "l0_start_u": 0.001797,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.74132
-  },
-  "7310025944114022400": {
-    "l0_span_weeks": 104.4618,
-    "l0_start_u": 0.000265,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.413798
-  },
-  "7311392286842210304": {
-    "l0_span_weeks": 127.7358,
-    "l0_start_u": 0.001979,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 18.835752
-  },
-  "7314039987904202752": {
-    "l0_span_weeks": 142.9819,
-    "l0_start_u": 0.006856,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.595622
-  },
-  "7315831670740535296": {
-    "l0_span_weeks": 103.0858,
-    "l0_start_u": 0.008377,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.092566
-  },
-  "7318349790516562944": {
-    "l0_span_weeks": 61.7841,
-    "l0_start_u": 0.001805,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 30.201957
-  },
-  "7318545970336533504": {
-    "l0_span_weeks": 154.0699,
-    "l0_start_u": 0.00477,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.508218
-  },
-  "7320403755933124608": {
-    "l0_span_weeks": 155.9751,
-    "l0_start_u": 0.000121,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 45.026411
-  },
-  "7322969928054573056": {
-    "l0_span_weeks": 136.6571,
-    "l0_start_u": 0.001479,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.36149
-  },
-  "7323194262220621824": {
-    "l0_span_weeks": 122.2268,
-    "l0_start_u": 0.004169,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.002277
-  },
-  "7325591201210124288": {
-    "l0_span_weeks": 131.4183,
-    "l0_start_u": 0.003745,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.472322
-  },
-  "7327486710442280960": {
-    "l0_span_weeks": 110.9019,
-    "l0_start_u": 0.000669,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 25.851679
-  },
-  "7327845352098154496": {
-    "l0_span_weeks": 81.0074,
-    "l0_start_u": 0.010512,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.097566
-  },
-  "7328117701929339904": {
-    "l0_span_weeks": 63.1791,
-    "l0_start_u": 0.011496,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 39.459221
-  },
-  "7328468982640413696": {
-    "l0_span_weeks": 106.7393,
-    "l0_start_u": 0.00201,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.10222
-  },
-  "7328869241331371008": {
-    "l0_span_weeks": 76.1134,
-    "l0_start_u": 0.009123,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 23.556959
-  },
-  "7330735020210588672": {
-    "l0_span_weeks": 55.4014,
-    "l0_start_u": 0.010531,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 25.08964
-  },
-  "7330849122909833216": {
-    "l0_span_weeks": 114.779,
-    "l0_start_u": 0.001357,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.074374
-  },
-  "7332970249874115584": {
-    "l0_span_weeks": 92.4553,
-    "l0_start_u": 0.009877,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.651778
-  },
-  "7334542274145455104": {
-    "l0_span_weeks": 150.1793,
-    "l0_start_u": 0.004062,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.582573
-  },
-  "7334710808871504896": {
-    "l0_span_weeks": 92.0777,
-    "l0_start_u": 0.008898,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.241348
-  },
-  "7335932349420456960": {
-    "l0_span_weeks": 40.703,
-    "l0_start_u": 0.003528,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 39.407402
-  },
-  "7338248034884618240": {
-    "l0_span_weeks": 112.5052,
-    "l0_start_u": 0.003992,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.666268
-  },
-  "7340383706023021568": {
-    "l0_span_weeks": 118.3243,
-    "l0_start_u": 0.003174,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.893558
-  },
-  "7340615758831340544": {
-    "l0_span_weeks": 125.3326,
-    "l0_start_u": 0.005344,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.875085
-  },
-  "7342687938722383872": {
-    "l0_span_weeks": 52.1017,
-    "l0_start_u": 0.007708,
-    "l0_end_u": 0.998773,
-    "l0_baseline_posts_per_week": 18.041637
-  },
-  "7345653928603552768": {
-    "l0_span_weeks": 109.2282,
-    "l0_start_u": 0.003108,
-    "l0_end_u": 0.999976,
-    "l0_baseline_posts_per_week": 9.411493
-  },
-  "7346137389485688832": {
-    "l0_span_weeks": 135.2945,
-    "l0_start_u": 0.004818,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 25.034275
-  },
-  "7348833558817033216": {
-    "l0_span_weeks": 74.9873,
-    "l0_start_u": 0.012057,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 18.829848
-  },
-  "7350086979234843648": {
-    "l0_span_weeks": 80.4435,
-    "l0_start_u": 0.004496,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 25.695052
-  },
-  "7351520464273098752": {
-    "l0_span_weeks": 105.5383,
-    "l0_start_u": 0.004239,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.560514
-  },
-  "7352613124358425600": {
-    "l0_span_weeks": 90.826,
-    "l0_start_u": 0.001845,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.399247
-  },
-  "7353374941268363264": {
-    "l0_span_weeks": 138.5968,
-    "l0_start_u": 0.000755,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.1706
-  },
-  "7354249271669344256": {
-    "l0_span_weeks": 117.1855,
-    "l0_start_u": 0.006424,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.709515
-  },
-  "7356061396491061248": {
-    "l0_span_weeks": 110.2232,
-    "l0_start_u": 0.006124,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.698503
-  },
-  "7358898427880982528": {
-    "l0_span_weeks": 102.3867,
-    "l0_start_u": 0.004922,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.96887
-  },
-  "7362317730454292480": {
-    "l0_span_weeks": 128.6343,
-    "l0_start_u": 0.001286,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.95353
-  },
-  "7362317730454308864": {
-    "l0_span_weeks": 155.7536,
-    "l0_start_u": 0.001441,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 79.285508
-  },
-  "7362517900709612544": {
-    "l0_span_weeks": 54.2243,
-    "l0_start_u": 0.007916,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 20.710281
-  },
-  "7363314838511175680": {
-    "l0_span_weeks": 154.0011,
-    "l0_start_u": 0.006107,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 18.688173
-  },
-  "7363498496317261824": {
-    "l0_span_weeks": 56.1503,
-    "l0_start_u": 0.014212,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.90106
-  },
-  "7364100791302883328": {
-    "l0_span_weeks": 77.4597,
-    "l0_start_u": 0.000845,
-    "l0_end_u": 0.997569,
-    "l0_baseline_posts_per_week": 13.219784
-  },
-  "7364498342501435392": {
-    "l0_span_weeks": 104.1085,
-    "l0_start_u": 0.006003,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.230759
-  },
-  "7364506549686257664": {
-    "l0_span_weeks": 117.2356,
-    "l0_start_u": 0.004656,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.128394
-  },
-  "7364508886547007488": {
-    "l0_span_weeks": 58.5105,
-    "l0_start_u": 0.007965,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 35.942289
-  },
-  "7364793832645707776": {
-    "l0_span_weeks": 77.5805,
-    "l0_start_u": 0.004638,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.503149
-  },
-  "7365349431086401536": {
-    "l0_span_weeks": 150.3635,
-    "l0_start_u": 0.000836,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 24.360965
-  },
-  "7369368914394056704": {
-    "l0_span_weeks": 155.1478,
-    "l0_start_u": 0.004247,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 20.367675
-  },
-  "7369680652205459456": {
-    "l0_span_weeks": 120.5304,
-    "l0_start_u": 0.002671,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.225889
-  },
-  "7370420816004679680": {
-    "l0_span_weeks": 139.721,
-    "l0_start_u": 0.001762,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.681584
-  },
-  "7372449484263704576": {
-    "l0_span_weeks": 154.3922,
-    "l0_start_u": 0.003122,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.426594
-  },
-  "7375246709691680768": {
-    "l0_span_weeks": 123.7504,
-    "l0_start_u": 0.001975,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.573711
-  },
-  "7376406268828731392": {
-    "l0_span_weeks": 103.7487,
-    "l0_start_u": 0.002226,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.624243
-  },
-  "7377183468658903040": {
-    "l0_span_weeks": 110.3675,
-    "l0_start_u": 0.005375,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.309147
-  },
-  "7377196584867760128": {
-    "l0_span_weeks": 114.5407,
-    "l0_start_u": 9.1e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.42424
-  },
-  "7377535587517417472": {
-    "l0_span_weeks": 111.0625,
-    "l0_start_u": 0.005311,
-    "l0_end_u": 0.998208,
-    "l0_baseline_posts_per_week": 13.731004
-  },
-  "7377852470171584512": {
-    "l0_span_weeks": 130.4715,
-    "l0_start_u": 0.003049,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.213617
-  },
-  "7377859637146650624": {
-    "l0_span_weeks": 51.8823,
-    "l0_start_u": 0.002095,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 18.522688
-  },
-  "7377882334798874624": {
-    "l0_span_weeks": 43.6699,
-    "l0_start_u": 0.007379,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 25.784377
-  },
-  "7377942936641521664": {
-    "l0_span_weeks": 87.7814,
-    "l0_start_u": 0.002468,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 23.683834
-  },
-  "7378258629840324608": {
-    "l0_span_weeks": 102.5255,
-    "l0_start_u": 0.004396,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 32.801581
-  },
-  "7380329705533573120": {
-    "l0_span_weeks": 72.9607,
-    "l0_start_u": 0.012566,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 31.797923
-  },
-  "7381705338703054848": {
-    "l0_span_weeks": 58.8545,
-    "l0_start_u": 0.014202,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 35.477317
-  },
-  "7382283137302842368": {
-    "l0_span_weeks": 72.1999,
-    "l0_start_u": 0.010855,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.196696
-  },
-  "7382338990413023232": {
-    "l0_span_weeks": 90.5843,
-    "l0_start_u": 0.004177,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 37.832166
-  },
-  "7384093990520966144": {
-    "l0_span_weeks": 121.399,
-    "l0_start_u": 0.003226,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.039602
-  },
-  "7385401177967577088": {
-    "l0_span_weeks": 142.0232,
-    "l0_start_u": 0.000559,
-    "l0_end_u": 0.999718,
-    "l0_baseline_posts_per_week": 10.244806
-  },
-  "7386350453707099136": {
-    "l0_span_weeks": 147.4923,
-    "l0_start_u": 0.001399,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.532703
-  },
-  "7386800052000589824": {
-    "l0_span_weeks": 142.0604,
-    "l0_start_u": 0.005962,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.656585
-  },
-  "7387573619378046976": {
-    "l0_span_weeks": 107.0437,
-    "l0_start_u": 0.008772,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.077955
-  },
-  "7387643783320325120": {
-    "l0_span_weeks": 25.5769,
-    "l0_start_u": 0.014164,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 40.857208
-  },
-  "7388997265261677568": {
-    "l0_span_weeks": 96.6649,
-    "l0_start_u": 0.003255,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.7176
-  },
-  "7389312707449014272": {
-    "l0_span_weeks": 60.2846,
-    "l0_start_u": 0.010737,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.656757
-  },
-  "7391113534199154688": {
-    "l0_span_weeks": 46.9559,
-    "l0_start_u": 0.000862,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.232668
-  },
-  "7393252024915560448": {
-    "l0_span_weeks": 58.4345,
-    "l0_start_u": 0.009581,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 58.167713
-  },
-  "7394239873410485248": {
-    "l0_span_weeks": 99.0161,
-    "l0_start_u": 0.009849,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 27.066311
-  },
-  "7394292517468571648": {
-    "l0_span_weeks": 91.2406,
-    "l0_start_u": 0.007224,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 33.910359
-  },
-  "7394423452319320064": {
-    "l0_span_weeks": 35.4048,
-    "l0_start_u": 0.014931,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 28.950914
-  },
-  "7394451688570193920": {
-    "l0_span_weeks": 108.6934,
-    "l0_start_u": 0.002791,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 23.294873
-  },
-  "7394728754989615104": {
-    "l0_span_weeks": 102.8542,
-    "l0_start_u": 0.007607,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.954423
-  },
-  "7398417325009766400": {
-    "l0_span_weeks": 59.6852,
-    "l0_start_u": 0.005165,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 23.087783
-  },
-  "7400178745854789632": {
-    "l0_span_weeks": 22.5149,
-    "l0_start_u": 0.004843,
-    "l0_end_u": 0.996067,
-    "l0_baseline_posts_per_week": 137.242215
-  },
-  "7400513247046453248": {
-    "l0_span_weeks": 79.3869,
-    "l0_start_u": 0.006985,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 44.264205
-  },
-  "7400917024157435904": {
-    "l0_span_weeks": 146.734,
-    "l0_start_u": 0.001723,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.923592
-  },
-  "7402296491114580992": {
-    "l0_span_weeks": 90.9684,
-    "l0_start_u": 3.2e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.730047
-  },
-  "7402788410186501120": {
-    "l0_span_weeks": 51.5576,
-    "l0_start_u": 0.008371,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 23.391301
-  },
-  "7403552691299633152": {
-    "l0_span_weeks": 151.2518,
-    "l0_start_u": 0.003687,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 7.292476
-  },
-  "7403588534353528832": {
-    "l0_span_weeks": 124.2863,
-    "l0_start_u": 0.005582,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.564315
-  },
-  "7404192461411585024": {
-    "l0_span_weeks": 63.7078,
-    "l0_start_u": 0.003904,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.385383
-  },
-  "7405931370277079040": {
-    "l0_span_weeks": 107.071,
-    "l0_start_u": 0.005934,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.96204
-  },
-  "7407459488175867904": {
-    "l0_span_weeks": 118.8191,
-    "l0_start_u": 0.0069,
-    "l0_end_u": 0.999423,
-    "l0_baseline_posts_per_week": 10.292956
-  },
-  "7409040964088236032": {
-    "l0_span_weeks": 126.3933,
-    "l0_start_u": 0.004664,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.122847
-  },
-  "7409859239037914112": {
-    "l0_span_weeks": 103.9477,
-    "l0_start_u": 0.006771,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.890591
-  },
-  "7410878726026496000": {
-    "l0_span_weeks": 51.1655,
-    "l0_start_u": 0.015737,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 40.691501
-  },
-  "7411047115374118912": {
-    "l0_span_weeks": 37.0098,
-    "l0_start_u": 0.025556,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 31.04579
-  },
-  "7413608708486285312": {
-    "l0_span_weeks": 125.3485,
-    "l0_start_u": 0.004769,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 36.466334
-  },
-  "7416858572367186944": {
-    "l0_span_weeks": 107.7514,
-    "l0_start_u": 0.002284,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.586887
-  },
-  "7417557432626367488": {
-    "l0_span_weeks": 89.3002,
-    "l0_start_u": 0.007109,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 18.264246
+    "l0_baseline_posts_per_week": 20.590825
   },
   "7419992942599571456": {
-    "l0_span_weeks": 74.4628,
-    "l0_start_u": 0.005256,
+    "l0_span_weeks": 23.5382,
+    "l0_start_u": 0.017798,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.216649
-  },
-  "7420997135757233152": {
-    "l0_span_weeks": 73.3752,
-    "l0_start_u": 0.012558,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.879012
-  },
-  "7421193044956843008": {
-    "l0_span_weeks": 35.874,
-    "l0_start_u": 0.002431,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 35.680413
-  },
-  "7421958305188170752": {
-    "l0_span_weeks": 14.2027,
-    "l0_start_u": 0.049254,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 67.592707
-  },
-  "7423291709603514368": {
-    "l0_span_weeks": 104.2706,
-    "l0_start_u": 0.006874,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 9.465758
-  },
-  "7423463770629523456": {
-    "l0_span_weeks": 110.8989,
-    "l0_start_u": 0.000452,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.914492
-  },
-  "7423463770629638144": {
-    "l0_span_weeks": 126.2878,
-    "l0_start_u": 0.003322,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.797363
-  },
-  "7424014547218566144": {
-    "l0_span_weeks": 35.7863,
-    "l0_start_u": 0.005925,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 74.022791
-  },
-  "7425335926072593408": {
-    "l0_span_weeks": 60.1318,
-    "l0_start_u": 0.010401,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.602532
-  },
-  "7426561989473830912": {
-    "l0_span_weeks": 69.8109,
-    "l0_start_u": 0.013553,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.682527
-  },
-  "7426810399384815616": {
-    "l0_span_weeks": 93.0043,
-    "l0_start_u": 0.005599,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.730357
-  },
-  "7428485595821377536": {
-    "l0_span_weeks": 33.9103,
-    "l0_start_u": 0.001966,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 30.197357
-  },
-  "7428967399708346368": {
-    "l0_span_weeks": 49.995,
-    "l0_start_u": 4.3e-05,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 51.425102
-  },
-  "7432092550581799936": {
-    "l0_span_weeks": 48.5865,
-    "l0_start_u": 0.007721,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 38.220454
-  },
-  "7432133703248480256": {
-    "l0_span_weeks": 27.8805,
-    "l0_start_u": 0.000652,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 33.679512
-  },
-  "7432590885215422464": {
-    "l0_span_weeks": 56.7803,
-    "l0_start_u": 0.00221,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.80335
-  },
-  "7436221373590652928": {
-    "l0_span_weeks": 76.3059,
-    "l0_start_u": 0.009847,
-    "l0_end_u": 0.995348,
-    "l0_baseline_posts_per_week": 16.250383
-  },
-  "7437803750033868800": {
-    "l0_span_weeks": 85.7587,
-    "l0_start_u": 0.002794,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 120.186085
-  },
-  "7438444077680430080": {
-    "l0_span_weeks": 29.7382,
-    "l0_start_u": 0.002582,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 39.713189
-  },
-  "7439245499100137472": {
-    "l0_span_weeks": 29.1879,
-    "l0_start_u": 0.025663,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 101.651772
-  },
-  "7439248609860373504": {
-    "l0_span_weeks": 74.1973,
-    "l0_start_u": 0.01041,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.30237
-  },
-  "7439295283975702528": {
-    "l0_span_weeks": 134.05,
-    "l0_start_u": 0.007024,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 65.303989
-  },
-  "7440191403818240000": {
-    "l0_span_weeks": 122.2594,
-    "l0_start_u": 0.005533,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 10.494082
-  },
-  "7442030731718855680": {
-    "l0_span_weeks": 82.9325,
-    "l0_start_u": 0.000555,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 13.058805
-  },
-  "7442345131845389312": {
-    "l0_span_weeks": 13.9454,
-    "l0_start_u": 0.002171,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 66.115059
-  },
-  "7446270015944411136": {
-    "l0_span_weeks": 95.4187,
-    "l0_start_u": 0.005757,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.049465
-  },
-  "7448617546414164992": {
-    "l0_span_weeks": 116.3306,
-    "l0_start_u": 0.008004,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.174977
-  },
-  "7449924369173760000": {
-    "l0_span_weeks": 57.0683,
-    "l0_start_u": 0.013715,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 31.313362
-  },
-  "7450276433584409600": {
-    "l0_span_weeks": 50.4988,
-    "l0_start_u": 0.018617,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 26.277827
-  },
-  "7450558029240272896": {
-    "l0_span_weeks": 121.9961,
-    "l0_start_u": 0.00757,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.213728
+    "l0_baseline_posts_per_week": 49.11158
   },
   "7455193801134196736": {
-    "l0_span_weeks": 72.985,
-    "l0_start_u": 0.000108,
+    "l0_span_weeks": 23.4749,
+    "l0_start_u": 0.020641,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.811469
+    "l0_baseline_posts_per_week": 48.519938
   },
-  "7455564873473492992": {
-    "l0_span_weeks": 35.689,
-    "l0_start_u": 0.008627,
+  "6711980022204206080": {
+    "l0_span_weeks": 21.8187,
+    "l0_start_u": 0.005237,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 39.648112
+    "l0_baseline_posts_per_week": 2.337441
   },
-  "7456415250359896064": {
-    "l0_span_weeks": 101.1008,
-    "l0_start_u": 0.008484,
+  "6586947002464996352": {
+    "l0_span_weeks": 23.8861,
+    "l0_start_u": 0.004282,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 15.509269
+    "l0_baseline_posts_per_week": 73.808692
   },
-  "7456415250359994368": {
-    "l0_span_weeks": 73.5833,
-    "l0_start_u": 0.001286,
+  "7314039987904202752": {
+    "l0_span_weeks": 22.4979,
+    "l0_start_u": 0.018847,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 14.650057
+    "l0_baseline_posts_per_week": 19.157328
   },
-  "7456477973932215296": {
-    "l0_span_weeks": 38.0177,
-    "l0_start_u": 0.024953,
+  "6817306305766639616": {
+    "l0_span_weeks": 23.9038,
+    "l0_start_u": 0.000782,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 24.804217
+    "l0_baseline_posts_per_week": 12.048269
   },
-  "7462738743510699008": {
-    "l0_span_weeks": 42.9441,
-    "l0_start_u": 0.020269,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 27.431026
+  "6704975207511115776": {
+    "l0_span_weeks": 23.7143,
+    "l0_start_u": 0.000829,
+    "l0_end_u": 0.99484,
+    "l0_baseline_posts_per_week": 12.186759
   },
-  "7463260542765976576": {
-    "l0_span_weeks": 18.2379,
-    "l0_start_u": 0.039573,
+  "7286030227255592960": {
+    "l0_span_weeks": 23.9568,
+    "l0_start_u": 0.0011,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 251.618281
+    "l0_baseline_posts_per_week": 21.663996
   },
-  "7466220526407535616": {
-    "l0_span_weeks": 9.8648,
-    "l0_start_u": 0.013587,
+  "7200478944389564416": {
+    "l0_span_weeks": 23.9167,
+    "l0_start_u": 0.002778,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 348.613034
+    "l0_baseline_posts_per_week": 39.177655
   },
-  "7467450862064879616": {
-    "l0_span_weeks": 66.3345,
-    "l0_start_u": 0.009603,
+  "7129708623646689280": {
+    "l0_span_weeks": 23.6213,
+    "l0_start_u": 0.012623,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 31.52207
+    "l0_baseline_posts_per_week": 23.072411
   },
-  "7468711641658525696": {
-    "l0_span_weeks": 27.082,
-    "l0_start_u": 0.032712,
+  "7369680652205459456": {
+    "l0_span_weeks": 23.8959,
+    "l0_start_u": 0.001053,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 128.239983
+    "l0_baseline_posts_per_week": 21.426309
   },
-  "7469609237662354432": {
-    "l0_span_weeks": 71.9117,
-    "l0_start_u": 0.000736,
+  "7152796746278504448": {
+    "l0_span_weeks": 23.9492,
+    "l0_start_u": 0.001832,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 16.339481
+    "l0_baseline_posts_per_week": 45.30428
   },
-  "7470229359559822336": {
-    "l0_span_weeks": 70.5708,
-    "l0_start_u": 0.005989,
+  "6974451099088455680": {
+    "l0_span_weeks": 23.8012,
+    "l0_start_u": 0.007518,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 60.024864
+    "l0_baseline_posts_per_week": 50.669641
   },
-  "7470644829996108800": {
-    "l0_span_weeks": 77.1145,
-    "l0_start_u": 0.008065,
+  "6999894365447391232": {
+    "l0_span_weeks": 23.9918,
+    "l0_start_u": 0.000171,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 37.956527
+    "l0_baseline_posts_per_week": 66.230827
   },
-  "7470876675554183168": {
-    "l0_span_weeks": 153.8315,
-    "l0_start_u": 0.000269,
+  "6980133134746519552": {
+    "l0_span_weeks": 22.8254,
+    "l0_start_u": 0.003751,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 47.252986
+    "l0_baseline_posts_per_week": 103.963146
   },
-  "7470923718237046784": {
-    "l0_span_weeks": 56.0213,
-    "l0_start_u": 0.014003,
+  "5000000001448892416": {
+    "l0_span_weeks": 23.8889,
+    "l0_start_u": 8.9e-05,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 20.831376
+    "l0_baseline_posts_per_week": 14.902316
   },
-  "7471018924906597376": {
-    "l0_span_weeks": 78.2946,
-    "l0_start_u": 0.009728,
+  "5000000001440736256": {
+    "l0_span_weeks": 22.8769,
+    "l0_start_u": 0.001586,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 11.878209
+    "l0_baseline_posts_per_week": 39.341043
   },
-  "7471355364306668544": {
-    "l0_span_weeks": 91.146,
-    "l0_start_u": 0.009322,
+  "7437803750033868800": {
+    "l0_span_weeks": 21.9848,
+    "l0_start_u": 0.000593,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.990151
+    "l0_baseline_posts_per_week": 455.223243
   },
-  "7471394040685939712": {
-    "l0_span_weeks": 41.2918,
-    "l0_start_u": 0.015922,
+  "7288226217396242432": {
+    "l0_span_weeks": 23.9897,
+    "l0_start_u": 0.000321,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 49.041184
-  },
-  "7472841185851542528": {
-    "l0_span_weeks": 15.9722,
-    "l0_start_u": 0.001326,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 113.948153
+    "l0_baseline_posts_per_week": 186.580447
   },
   "7474209817062575104": {
-    "l0_span_weeks": 122.7784,
-    "l0_start_u": 0.001657,
+    "l0_span_weeks": 21.5961,
+    "l0_start_u": 0.018179,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 77.766138
+    "l0_baseline_posts_per_week": 436.607393
   },
-  "7475084980148013056": {
-    "l0_span_weeks": 89.9651,
-    "l0_start_u": 0.009481,
+  "7274026617033558016": {
+    "l0_span_weeks": 23.8804,
+    "l0_start_u": 0.002495,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 53.409613
+    "l0_baseline_posts_per_week": 44.639094
   },
-  "7475224226850098176": {
-    "l0_span_weeks": 39.9981,
-    "l0_start_u": 0.01994,
-    "l0_end_u": 0.998914,
-    "l0_baseline_posts_per_week": 30.026453
-  },
-  "7476666724197239808": {
-    "l0_span_weeks": 14.1929,
-    "l0_start_u": 0.042698,
+  "7286684398656359424": {
+    "l0_span_weeks": 23.8731,
+    "l0_start_u": 0.004627,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 191.78582
+    "l0_baseline_posts_per_week": 128.806273
   },
-  "7477591295491066880": {
-    "l0_span_weeks": 79.6591,
-    "l0_start_u": 0.003395,
+  "7229395519029594112": {
+    "l0_span_weeks": 23.9847,
+    "l0_start_u": 0.000109,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 34.835946
+    "l0_baseline_posts_per_week": 40.776006
   },
-  "7478072813246990336": {
-    "l0_span_weeks": 46.2451,
-    "l0_start_u": 0.015217,
+  "6975355332137093120": {
+    "l0_span_weeks": 23.8046,
+    "l0_start_u": 0.006373,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 21.688807
+    "l0_baseline_posts_per_week": 13.148698
   },
-  "7483168695965419520": {
-    "l0_span_weeks": 12.9367,
-    "l0_start_u": 0.001052,
+  "7432590885215422464": {
+    "l0_span_weeks": 19.8363,
+    "l0_start_u": 0.003261,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 135.970089
+    "l0_baseline_posts_per_week": 61.301904
   },
-  "7483602278480103424": {
-    "l0_span_weeks": 114.4163,
-    "l0_start_u": 0.002341,
+  "7268544136268679168": {
+    "l0_span_weeks": 23.7749,
+    "l0_start_u": 0.004497,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 8.23309
+    "l0_baseline_posts_per_week": 21.535346
   },
-  "7483604724567034880": {
-    "l0_span_weeks": 24.7428,
-    "l0_start_u": 0.006136,
+  "7394423452319320064": {
+    "l0_span_weeks": 23.9239,
+    "l0_start_u": 0.003128,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 103.505016
+    "l0_baseline_posts_per_week": 42.008218
   },
-  "7483933533720823808": {
-    "l0_span_weeks": 45.6812,
-    "l0_start_u": 0.005376,
+  "7472841185851542528": {
+    "l0_span_weeks": 15.9034,
+    "l0_start_u": 0.001298,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 30.231224
+    "l0_baseline_posts_per_week": 113.686092
   },
-  "7484273435515340800": {
-    "l0_span_weeks": 111.3885,
-    "l0_start_u": 0.003567,
+  "7055205517962004480": {
+    "l0_span_weeks": 23.7103,
+    "l0_start_u": 0.003682,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 40.937791
+    "l0_baseline_posts_per_week": 25.136769
   },
-  "7485122811418168320": {
-    "l0_span_weeks": 56.626,
-    "l0_start_u": 0.001233,
+  "6917595301519820800": {
+    "l0_span_weeks": 22.4696,
+    "l0_start_u": 0.015477,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 35.937565
+    "l0_baseline_posts_per_week": 284.429239
   },
-  "7486135725029673984": {
-    "l0_span_weeks": 10.2787,
-    "l0_start_u": 0.0685,
+  "7142926872781817856": {
+    "l0_span_weeks": 23.8684,
+    "l0_start_u": 0.004048,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 149.920982
+    "l0_baseline_posts_per_week": 41.435561
   },
-  "7486172421228153856": {
-    "l0_span_weeks": 11.4983,
-    "l0_start_u": 0.000406,
+  "7263241548443568128": {
+    "l0_span_weeks": 22.4588,
+    "l0_start_u": 0.0175,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 128.106246
+    "l0_baseline_posts_per_week": 3.873759
   },
-  "7486523609695980544": {
-    "l0_span_weeks": 11.9264,
-    "l0_start_u": 0.002166,
+  "6906212382675044352": {
+    "l0_span_weeks": 23.8657,
+    "l0_start_u": 0.004691,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 142.20494
+    "l0_baseline_posts_per_week": 32.682915
   },
-  "7486655392508921856": {
-    "l0_span_weeks": 33.5823,
-    "l0_start_u": 0.011825,
+  "7330735020210588672": {
+    "l0_span_weeks": 11.6762,
+    "l0_start_u": 0.020876,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 34.244216
+    "l0_baseline_posts_per_week": 117.846828
   },
-  "7488001262270941184": {
-    "l0_span_weeks": 7.9879,
-    "l0_start_u": 0.001402,
+  "6712420715863214080": {
+    "l0_span_weeks": 23.9757,
+    "l0_start_u": 0.000155,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 173.637264
+    "l0_baseline_posts_per_week": 48.674332
   },
-  "7488094138099436544": {
-    "l0_span_weeks": 155.0908,
-    "l0_start_u": 0.005783,
+  "7440191403818240000": {
+    "l0_span_weeks": 23.7739,
+    "l0_start_u": 0.001359,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 47.043402
+    "l0_baseline_posts_per_week": 31.252727
   },
-  "7488170503186697216": {
-    "l0_span_weeks": 11.0054,
-    "l0_start_u": 0.081899,
+  "7340615758831340544": {
+    "l0_span_weeks": 23.8278,
+    "l0_start_u": 0.000216,
+    "l0_end_u": 0.998987,
+    "l0_baseline_posts_per_week": 46.626175
+  },
+  "7290750382500759552": {
+    "l0_span_weeks": 23.9316,
+    "l0_start_u": 0.000215,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 92.681382
+    "l0_baseline_posts_per_week": 19.681068
   },
-  "7488877199404174336": {
-    "l0_span_weeks": 9.9578,
-    "l0_start_u": 0.003205,
+  "6891407679856592896": {
+    "l0_span_weeks": 23.2365,
+    "l0_start_u": 0.024595,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 102.432626
+    "l0_baseline_posts_per_week": 63.348606
   },
-  "7489076516684057600": {
-    "l0_span_weeks": 11.9086,
-    "l0_start_u": 0.002146,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 99.25571
-  },
-  "7489326362086082560": {
-    "l0_span_weeks": 9.9938,
-    "l0_start_u": 0.00025,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 115.071562
-  },
-  "7489525271088039936": {
-    "l0_span_weeks": 124.6249,
-    "l0_start_u": 0.00087,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 12.629901
-  },
-  "7491042012905850880": {
-    "l0_span_weeks": 9.7959,
-    "l0_start_u": 0.002058,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 99.93999
-  },
-  "7492100706755184640": {
-    "l0_span_weeks": 9.9108,
-    "l0_start_u": 0.005332,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 180.509987
-  },
-  "7492171577455593472": {
-    "l0_span_weeks": 100.027,
-    "l0_start_u": 0.009125,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 26.882753
-  },
-  "7493299529123400704": {
-    "l0_span_weeks": 9.8806,
+  "7363314838511175680": {
+    "l0_span_weeks": 23.9828,
     "l0_start_u": 0.000407,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 104.143105
+    "l0_baseline_posts_per_week": 76.096068
   },
-  "7493886315444964352": {
-    "l0_span_weeks": 60.4654,
-    "l0_start_u": 0.007599,
+  "6990441958090999808": {
+    "l0_span_weeks": 23.9282,
+    "l0_start_u": 0.000528,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 47.944799
+    "l0_baseline_posts_per_week": 28.627269
   },
-  "7495552113557195776": {
-    "l0_span_weeks": 8.8626,
-    "l0_start_u": 0.002512,
-    "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 313.678399
+  "7353374941268363264": {
+    "l0_span_weeks": 23.1335,
+    "l0_start_u": 0.010613,
+    "l0_end_u": 0.992033,
+    "l0_baseline_posts_per_week": 3.631102
   },
-  "7496827933073360896": {
-    "l0_span_weeks": 54.1974,
-    "l0_start_u": 0.014013,
+  "7170212466167646208": {
+    "l0_span_weeks": 23.9966,
+    "l0_start_u": 8.8e-05,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 17.56541
+    "l0_baseline_posts_per_week": 243.284726
   },
-  "7498488534715336704": {
-    "l0_span_weeks": 67.8887,
-    "l0_start_u": 0.001605,
+  "7299618713351227392": {
+    "l0_span_weeks": 23.6527,
+    "l0_start_u": 0.014106,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 62.91176
+    "l0_baseline_posts_per_week": 45.026549
+  },
+  "7220175238067080192": {
+    "l0_span_weeks": 23.9805,
+    "l0_start_u": 0.000559,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 94.535191
+  },
+  "6732536571318257664": {
+    "l0_span_weeks": 23.9922,
+    "l0_start_u": 2.7e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.634681
+  },
+  "7200846574183221248": {
+    "l0_span_weeks": 23.9273,
+    "l0_start_u": 0.001027,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 80.535705
+  },
+  "7234222652599846912": {
+    "l0_span_weeks": 23.9077,
+    "l0_start_u": 0.000421,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 58.851289
+  },
+  "7231997808928032768": {
+    "l0_span_weeks": 24.3983,
+    "l0_start_u": 4.9e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 266.698438
+  },
+  "7067653463425714176": {
+    "l0_span_weeks": 23.7309,
+    "l0_start_u": 0.00882,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 30.045196
+  },
+  "7226230926606501888": {
+    "l0_span_weeks": 23.9109,
+    "l0_start_u": 0.003691,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 111.079048
+  },
+  "7267313613491850240": {
+    "l0_span_weeks": 22.9225,
+    "l0_start_u": 0.003124,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 44.933992
+  },
+  "6997760714060335104": {
+    "l0_span_weeks": 23.9603,
+    "l0_start_u": 0.000546,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 35.809206
+  },
+  "7376406268828731392": {
+    "l0_span_weeks": 23.7089,
+    "l0_start_u": 0.00748,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 19.86596
+  },
+  "7043672073613936640": {
+    "l0_span_weeks": 23.9514,
+    "l0_start_u": 0.000893,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 163.789745
+  },
+  "7062752064783026176": {
+    "l0_span_weeks": 23.9727,
+    "l0_start_u": 0.001062,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 111.501666
+  },
+  "7290790746045631488": {
+    "l0_span_weeks": 23.8284,
+    "l0_start_u": 0.001582,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 80.953984
+  },
+  "7213023502826638336": {
+    "l0_span_weeks": 22.4915,
+    "l0_start_u": 0.019547,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 57.354922
+  },
+  "6728562975734515712": {
+    "l0_span_weeks": 23.9705,
+    "l0_start_u": 0.000951,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 78.846852
+  },
+  "7244851220488244224": {
+    "l0_span_weeks": 23.9714,
+    "l0_start_u": 0.000888,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 80.929715
+  },
+  "7055804490242377728": {
+    "l0_span_weeks": 23.6625,
+    "l0_start_u": 0.008602,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 10.353932
+  },
+  "7060824478627940352": {
+    "l0_span_weeks": 23.8514,
+    "l0_start_u": 0.000571,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 15.890055
+  },
+  "6696413461443774464": {
+    "l0_span_weeks": 23.8919,
+    "l0_start_u": 0.003875,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 42.650379
+  },
+  "6925246939554383872": {
+    "l0_span_weeks": 23.9178,
+    "l0_start_u": 0.003271,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 43.900385
+  },
+  "7493299529123400704": {
+    "l0_span_weeks": 9.8548,
+    "l0_start_u": 0.001106,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 104.010249
+  },
+  "7369368914394056704": {
+    "l0_span_weeks": 23.9452,
+    "l0_start_u": 0.000637,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.442267
+  },
+  "7299763084615714816": {
+    "l0_span_weeks": 23.8064,
+    "l0_start_u": 0.002713,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 11.509496
+  },
+  "7411047115374118912": {
+    "l0_span_weeks": 23.8846,
+    "l0_start_u": 0.003546,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 44.421871
+  },
+  "7212600172143085568": {
+    "l0_span_weeks": 23.9538,
+    "l0_start_u": 0.000139,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 85.581584
+  },
+  "7486523609695980544": {
+    "l0_span_weeks": 11.7989,
+    "l0_start_u": 0.008128,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 142.895093
+  },
+  "7425335926072593408": {
+    "l0_span_weeks": 23.8747,
+    "l0_start_u": 0.00146,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 53.571427
+  },
+  "7122459821244155904": {
+    "l0_span_weeks": 23.9613,
+    "l0_start_u": 0.000861,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 60.848132
+  },
+  "7402788410186501120": {
+    "l0_span_weeks": 23.2731,
+    "l0_start_u": 0.030533,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 50.74538
+  },
+  "7381705338703054848": {
+    "l0_span_weeks": 23.8532,
+    "l0_start_u": 0.006066,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 85.607054
+  },
+  "7428485595821377536": {
+    "l0_span_weeks": 22.3881,
+    "l0_start_u": 0.026054,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 44.443344
+  },
+  "7394292517468571648": {
+    "l0_span_weeks": 23.9574,
+    "l0_start_u": 0.000517,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 104.268211
+  },
+  "6832618984580335616": {
+    "l0_span_weeks": 23.7278,
+    "l0_start_u": 0.010429,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 26.382536
+  },
+  "6927287043793881088": {
+    "l0_span_weeks": 23.9707,
+    "l0_start_u": 8e-06,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 44.095466
+  },
+  "7409859239037914112": {
+    "l0_span_weeks": 23.52,
+    "l0_start_u": 0.004733,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 51.488126
+  },
+  "7439245499100137472": {
+    "l0_span_weeks": 23.8396,
+    "l0_start_u": 0.000201,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 121.100932
+  },
+  "7295929147070269440": {
+    "l0_span_weeks": 23.4268,
+    "l0_start_u": 0.001967,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 34.490461
+  },
+  "7483604724567034880": {
+    "l0_span_weeks": 12.9278,
+    "l0_start_u": 0.003607,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 195.470408
+  },
+  "7475084980148013056": {
+    "l0_span_weeks": 16.0857,
+    "l0_start_u": 0.053204,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 295.417679
+  },
+  "6793091483172866048": {
+    "l0_span_weeks": 23.311,
+    "l0_start_u": 0.022468,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 10.081084
+  },
+  "7118185058074397696": {
+    "l0_span_weeks": 23.9757,
+    "l0_start_u": 0.000673,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 42.668239
+  },
+  "7413608708486285312": {
+    "l0_span_weeks": 23.9245,
+    "l0_start_u": 0.000442,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 107.128664
+  },
+  "7133332967409059840": {
+    "l0_span_weeks": 23.7191,
+    "l0_start_u": 0.011585,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 86.681335
+  },
+  "7377852470171584512": {
+    "l0_span_weeks": 23.9285,
+    "l0_start_u": 0.001624,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 51.570352
+  },
+  "7145623012119676928": {
+    "l0_span_weeks": 23.9178,
+    "l0_start_u": 0.00244,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 34.24226
+  },
+  "6921367719611500544": {
+    "l0_span_weeks": 23.8637,
+    "l0_start_u": 0.005675,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 67.173287
+  },
+  "6655492047723564032": {
+    "l0_span_weeks": 23.8865,
+    "l0_start_u": 0.003272,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 23.988466
+  },
+  "7310025944114022400": {
+    "l0_span_weeks": 23.9052,
+    "l0_start_u": 0.002742,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 53.754107
+  },
+  "6741656848987850752": {
+    "l0_span_weeks": 23.8967,
+    "l0_start_u": 0.004168,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 79.592559
+  },
+  "6792136995872180224": {
+    "l0_span_weeks": 23.864,
+    "l0_start_u": 0.00234,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 24.639672
+  },
+  "7133300811710334976": {
+    "l0_span_weeks": 23.8944,
+    "l0_start_u": 0.000612,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 28.249262
+  },
+  "7483933533720823808": {
+    "l0_span_weeks": 12.8469,
+    "l0_start_u": 0.001033,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 106.718175
+  },
+  "7275451326566632448": {
+    "l0_span_weeks": 23.9532,
+    "l0_start_u": 0.000245,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 70.470818
+  },
+  "6777279827805390848": {
+    "l0_span_weeks": 23.9208,
+    "l0_start_u": 0.002774,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 20.317014
+  },
+  "7306623023414495232": {
+    "l0_span_weeks": 23.8861,
+    "l0_start_u": 0.002752,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 6.656597
+  },
+  "7389312707449014272": {
+    "l0_span_weeks": 23.2911,
+    "l0_start_u": 0.029837,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 50.577346
+  },
+  "7470923718237046784": {
+    "l0_span_weeks": 23.1956,
+    "l0_start_u": 0.034111,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 49.535301
+  },
+  "6790815405423200256": {
+    "l0_span_weeks": 23.8186,
+    "l0_start_u": 0.005265,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 76.452697
+  },
+  "7428967399708346368": {
+    "l0_span_weeks": 16.58,
+    "l0_start_u": 0.025632,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 152.895353
+  },
+  "7356061396491061248": {
+    "l0_span_weeks": 23.7434,
+    "l0_start_u": 0.003812,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 17.310086
+  },
+  "7432092550581799936": {
+    "l0_span_weeks": 18.7247,
+    "l0_start_u": 0.011606,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 98.906835
+  },
+  "6860551076676896768": {
+    "l0_span_weeks": 23.9442,
+    "l0_start_u": 0.000182,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 55.504129
+  },
+  "6781515050600368128": {
+    "l0_span_weeks": 23.8614,
+    "l0_start_u": 0.005338,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 22.588798
+  },
+  "7438444077680430080": {
+    "l0_span_weeks": 23.8897,
+    "l0_start_u": 0.000193,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 26.496786
+  },
+  "7362317730454308864": {
+    "l0_span_weeks": 23.9255,
+    "l0_start_u": 0.000462,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 32.057847
+  },
+  "6837321683213223936": {
+    "l0_span_weeks": 15.9704,
+    "l0_start_u": 0.001025,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 82.026861
+  },
+  "7426810399384815616": {
+    "l0_span_weeks": 23.8495,
+    "l0_start_u": 0.000212,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 20.168166
+  },
+  "6886867274171418624": {
+    "l0_span_weeks": 23.8523,
+    "l0_start_u": 0.004002,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 27.293008
+  },
+  "7398417325009766400": {
+    "l0_span_weeks": 22.1719,
+    "l0_start_u": 0.035257,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 61.835031
+  },
+  "7255011118329989120": {
+    "l0_span_weeks": 23.7514,
+    "l0_start_u": 0.005256,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.240326
+  },
+  "7400178745854789632": {
+    "l0_span_weeks": 22.8598,
+    "l0_start_u": 0.001051,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 134.909202
+  },
+  "6925569841169205248": {
+    "l0_span_weeks": 20.8977,
+    "l0_start_u": 0.025967,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 2.966834
+  },
+  "7377882334798874624": {
+    "l0_span_weeks": 23.9865,
+    "l0_start_u": 0.000263,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 45.442228
+  },
+  "7327486710442280960": {
+    "l0_span_weeks": 23.8896,
+    "l0_start_u": 0.001275,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 118.796246
+  },
+  "6817180237894256640": {
+    "l0_span_weeks": 23.7334,
+    "l0_start_u": 0.009492,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 9.311768
   },
   "7498853677446383616": {
-    "l0_span_weeks": 42.3906,
-    "l0_start_u": 0.012127,
+    "l0_span_weeks": 16.7512,
+    "l0_start_u": 0.01208,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 31.893845
+    "l0_baseline_posts_per_week": 80.412149
   },
-  "7499982239346805760": {
-    "l0_span_weeks": 91.8103,
-    "l0_start_u": 0.00191,
+  "6945567438809418752": {
+    "l0_span_weeks": 23.9152,
+    "l0_start_u": 0.002676,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 19.387804
+    "l0_baseline_posts_per_week": 49.006452
+  },
+  "7439295283975702528": {
+    "l0_span_weeks": 23.9744,
+    "l0_start_u": 5.2e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 296.524903
+  },
+  "6704985044194166784": {
+    "l0_span_weeks": 23.9348,
+    "l0_start_u": 0.00213,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 50.052632
+  },
+  "7276208464174188544": {
+    "l0_span_weeks": 23.8604,
+    "l0_start_u": 0.000628,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 37.174611
+  },
+  "7150442374261377024": {
+    "l0_span_weeks": 23.9126,
+    "l0_start_u": 0.001048,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 35.086057
+  },
+  "7483168695965419520": {
+    "l0_span_weeks": 12.8915,
+    "l0_start_u": 0.008021,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 135.515953
+  },
+  "7201288091355614208": {
+    "l0_span_weeks": 23.4185,
+    "l0_start_u": 0.022247,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 112.945006
+  },
+  "7280525097285847040": {
+    "l0_span_weeks": 23.9281,
+    "l0_start_u": 0.000481,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 11.994244
+  },
+  "7417557432626367488": {
+    "l0_span_weeks": 22.7441,
+    "l0_start_u": 0.007259,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 70.6997
+  },
+  "6817568979012290560": {
+    "l0_span_weeks": 23.8969,
+    "l0_start_u": 0.004214,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 46.909906
+  },
+  "7245526535704430592": {
+    "l0_span_weeks": 23.8956,
+    "l0_start_u": 0.000322,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 10.671408
+  },
+  "7218376302503365632": {
+    "l0_span_weeks": 23.9713,
+    "l0_start_u": 0.001015,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 105.376231
+  },
+  "6928469608437385216": {
+    "l0_span_weeks": 23.9702,
+    "l0_start_u": 0.001091,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 23.570971
+  },
+  "230910198494683136": {
+    "l0_span_weeks": 23.9389,
+    "l0_start_u": 0.002244,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 19.508022
+  },
+  "6832229089919649792": {
+    "l0_span_weeks": 23.7491,
+    "l0_start_u": 0.00787,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 20.042847
+  },
+  "7186383409608919040": {
+    "l0_span_weeks": 23.4182,
+    "l0_start_u": 0.002592,
+    "l0_end_u": 0.996091,
+    "l0_baseline_posts_per_week": 11.956522
   },
   "7504108759648995328": {
-    "l0_span_weeks": 16.8097,
-    "l0_start_u": 0.010148,
+    "l0_span_weeks": 16.653,
+    "l0_start_u": 0.012755,
     "l0_end_u": 1.0,
-    "l0_baseline_posts_per_week": 76.682068
+    "l0_baseline_posts_per_week": 76.802852
+  },
+  "6873501791145691136": {
+    "l0_span_weeks": 23.9843,
+    "l0_start_u": 0.000591,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 180.201107
+  },
+  "7187816271247853568": {
+    "l0_span_weeks": 23.7359,
+    "l0_start_u": 0.009604,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 5.519055
+  },
+  "7471355364306668544": {
+    "l0_span_weeks": 22.5205,
+    "l0_start_u": 0.00646,
+    "l0_end_u": 0.997926,
+    "l0_baseline_posts_per_week": 51.553139
+  },
+  "7200065594014731264": {
+    "l0_span_weeks": 23.9156,
+    "l0_start_u": 0.001621,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 26.677116
+  },
+  "6618871733141113856": {
+    "l0_span_weeks": 23.9896,
+    "l0_start_u": 8.4e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 65.361619
+  },
+  "7348833558817033216": {
+    "l0_span_weeks": 18.8008,
+    "l0_start_u": 0.005788,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 74.092659
+  },
+  "7327845352098154496": {
+    "l0_span_weeks": 19.9289,
+    "l0_start_u": 0.001605,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 52.386296
+  },
+  "7050214893630737408": {
+    "l0_span_weeks": 15.8993,
+    "l0_start_u": 0.000575,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 72.204317
+  },
+  "6929278627703949312": {
+    "l0_span_weeks": 20.0366,
+    "l0_start_u": 0.040352,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 104.309328
+  },
+  "7488877199404174336": {
+    "l0_span_weeks": 9.9824,
+    "l0_start_u": 0.000513,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 100.476446
+  },
+  "6844083891116967936": {
+    "l0_span_weeks": 23.8562,
+    "l0_start_u": 0.000985,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 39.151325
+  },
+  "7006274970402473984": {
+    "l0_span_weeks": 23.954,
+    "l0_start_u": 0.001188,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 42.164082
+  },
+  "6817665487665629184": {
+    "l0_span_weeks": 23.9901,
+    "l0_start_u": 0.000357,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 108.586253
+  },
+  "7230735816774354944": {
+    "l0_span_weeks": 23.6872,
+    "l0_start_u": 0.01169,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 18.406558
+  },
+  "7378258629840324608": {
+    "l0_span_weeks": 23.9599,
+    "l0_start_u": 0.000266,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 123.372958
+  },
+  "7409040964088236032": {
+    "l0_span_weeks": 23.7964,
+    "l0_start_u": 0.007414,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 96.19118
+  },
+  "6692683186809359360": {
+    "l0_span_weeks": 23.955,
+    "l0_start_u": 0.00131,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 50.594897
+  },
+  "7296811377686841344": {
+    "l0_span_weeks": 20.9583,
+    "l0_start_u": 0.001828,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 73.097573
+  },
+  "7293145962955360256": {
+    "l0_span_weeks": 23.9962,
+    "l0_start_u": 0.000114,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 72.636397
+  },
+  "7107825905426237440": {
+    "l0_span_weeks": 23.7577,
+    "l0_start_u": 0.005728,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 22.855744
+  },
+  "6967418269091269632": {
+    "l0_span_weeks": 23.9501,
+    "l0_start_u": 0.001744,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 72.40067
+  },
+  "7475224226850098176": {
+    "l0_span_weeks": 15.4478,
+    "l0_start_u": 0.021109,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 77.486699
+  },
+  "7084465663108089856": {
+    "l0_span_weeks": 23.8291,
+    "l0_start_u": 0.004744,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 35.334967
+  },
+  "7493886315444964352": {
+    "l0_span_weeks": 6.8856,
+    "l0_start_u": 7e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 418.120799
+  },
+  "7499982239346805760": {
+    "l0_span_weeks": 13.1848,
+    "l0_start_u": 0.059061,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 133.714401
+  },
+  "7033128850808704000": {
+    "l0_span_weeks": 23.8436,
+    "l0_start_u": 0.006376,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 24.115503
+  },
+  "6873613247912609792": {
+    "l0_span_weeks": 23.6397,
+    "l0_start_u": 0.014212,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.599395
+  },
+  "7358898427880982528": {
+    "l0_span_weeks": 23.9106,
+    "l0_start_u": 0.003272,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 41.069582
+  },
+  "7290811070539648000": {
+    "l0_span_weeks": 23.9803,
+    "l0_start_u": 0.000537,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.317406
+  },
+  "6755505385160869888": {
+    "l0_span_weeks": 22.4262,
+    "l0_start_u": 0.016041,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 104.743592
+  },
+  "6736016676434757632": {
+    "l0_span_weeks": 23.9834,
+    "l0_start_u": 0.000399,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 50.660118
+  },
+  "7323194262220621824": {
+    "l0_span_weeks": 23.951,
+    "l0_start_u": 0.001535,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 23.464536
+  },
+  "7488001262270941184": {
+    "l0_span_weeks": 7.663,
+    "l0_start_u": 0.009663,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 178.912527
+  },
+  "7096858059892328448": {
+    "l0_span_weeks": 23.8913,
+    "l0_start_u": 0.000175,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 65.83973
+  },
+  "7456415250359994368": {
+    "l0_span_weeks": 23.3265,
+    "l0_start_u": 0.000147,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 45.87062
+  },
+  "6817206998401026048": {
+    "l0_span_weeks": 23.9373,
+    "l0_start_u": 0.000616,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 41.316347
+  },
+  "7387643783320325120": {
+    "l0_span_weeks": 23.606,
+    "l0_start_u": 0.014347,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 43.251634
+  },
+  "6777274113254754304": {
+    "l0_span_weeks": 23.969,
+    "l0_start_u": 0.000144,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 94.789193
+  },
+  "7370420816004679680": {
+    "l0_span_weeks": 23.3859,
+    "l0_start_u": 0.012573,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 3.677437
+  },
+  "7364100791302883328": {
+    "l0_span_weeks": 22.6991,
+    "l0_start_u": 0.005227,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 7.224946
+  },
+  "7208642853458004992": {
+    "l0_span_weeks": 22.2963,
+    "l0_start_u": 0.019512,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 56.87053
+  },
+  "6981828410792216576": {
+    "l0_span_weeks": 23.9096,
+    "l0_start_u": 0.00179,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 123.548649
+  },
+  "6971624755921292288": {
+    "l0_span_weeks": 23.8624,
+    "l0_start_u": 0.000517,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 16.134194
+  },
+  "7404192461411585024": {
+    "l0_span_weeks": 22.4662,
+    "l0_start_u": 0.022284,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 54.481758
+  },
+  "6926382671288109056": {
+    "l0_span_weeks": 23.9628,
+    "l0_start_u": 0.001494,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 50.369753
+  },
+  "7235662417353738240": {
+    "l0_span_weeks": 23.9825,
+    "l0_start_u": 0.00047,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 61.169596
+  },
+  "6772235001174951936": {
+    "l0_span_weeks": 23.7754,
+    "l0_start_u": 0.007766,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 30.746036
+  },
+  "6715196271927232512": {
+    "l0_span_weeks": 23.845,
+    "l0_start_u": 0.006097,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.691761
+  },
+  "7492171577455593472": {
+    "l0_span_weeks": 15.6971,
+    "l0_start_u": 0.011359,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 169.203348
+  },
+  "7334542274145455104": {
+    "l0_span_weeks": 23.6332,
+    "l0_start_u": 0.007237,
+    "l0_end_u": 0.997849,
+    "l0_baseline_posts_per_week": 15.317458
+  },
+  "7163694917208770560": {
+    "l0_span_weeks": 23.9089,
+    "l0_start_u": 0.00375,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 25.346235
+  },
+  "7351520464273098752": {
+    "l0_span_weeks": 23.7969,
+    "l0_start_u": 0.003621,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 28.154899
+  },
+  "7489525271088039936": {
+    "l0_span_weeks": 21.6572,
+    "l0_start_u": 0.015408,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 71.477456
+  },
+  "7240200829259582464": {
+    "l0_span_weeks": 23.7741,
+    "l0_start_u": 0.000157,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 41.137173
+  },
+  "7403588534353528832": {
+    "l0_span_weeks": 23.9236,
+    "l0_start_u": 0.002432,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 38.2049
+  },
+  "7471394040685939712": {
+    "l0_span_weeks": 17.5161,
+    "l0_start_u": 0.0213,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 114.751699
+  },
+  "7133276030545954816": {
+    "l0_span_weeks": 23.9645,
+    "l0_start_u": 0.001008,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 34.34243
+  },
+  "7103996508323743744": {
+    "l0_span_weeks": 22.5412,
+    "l0_start_u": 0.007966,
+    "l0_end_u": 0.994144,
+    "l0_baseline_posts_per_week": 2.839243
+  },
+  "6817208513685620736": {
+    "l0_span_weeks": 23.9781,
+    "l0_start_u": 0.00046,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 136.249344
+  },
+  "7187898690403567616": {
+    "l0_span_weeks": 23.8892,
+    "l0_start_u": 0.000654,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 18.209032
+  },
+  "6714159100260813824": {
+    "l0_span_weeks": 23.7052,
+    "l0_start_u": 0.007809,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.807303
+  },
+  "6815712093161916416": {
+    "l0_span_weeks": 23.9873,
+    "l0_start_u": 0.000308,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 141.533499
+  },
+  "7259670311572999168": {
+    "l0_span_weeks": 23.6105,
+    "l0_start_u": 0.000642,
+    "l0_end_u": 0.990302,
+    "l0_baseline_posts_per_week": 69.121881
+  },
+  "7078749955761899520": {
+    "l0_span_weeks": 23.916,
+    "l0_start_u": 0.000891,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.687196
+  },
+  "7320403755933124608": {
+    "l0_span_weeks": 23.9544,
+    "l0_start_u": 0.001042,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 59.404448
+  },
+  "7469609237662354432": {
+    "l0_span_weeks": 16.9733,
+    "l0_start_u": 0.000719,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 67.930069
+  },
+  "7095736264514717696": {
+    "l0_span_weeks": 5.3539,
+    "l0_start_u": 0.000306,
+    "l0_end_u": 0.961256,
+    "l0_baseline_posts_per_week": 46.508442
+  },
+  "7301372051342756864": {
+    "l0_span_weeks": 23.8141,
+    "l0_start_u": 0.007936,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 18.93839
+  },
+  "7251622791866009600": {
+    "l0_span_weeks": 23.9329,
+    "l0_start_u": 0.001872,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 39.192952
+  },
+  "6740249715385829376": {
+    "l0_span_weeks": 23.9931,
+    "l0_start_u": 7e-06,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 124.03547
+  },
+  "7416858572367186944": {
+    "l0_span_weeks": 23.8504,
+    "l0_start_u": 0.000716,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 38.028788
+  },
+  "7278848944754722816": {
+    "l0_span_weeks": 23.929,
+    "l0_start_u": 0.001914,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 51.193175
+  },
+  "7302500653593562112": {
+    "l0_span_weeks": 23.9466,
+    "l0_start_u": 0.002199,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 14.198258
+  },
+  "7393252024915560448": {
+    "l0_span_weeks": 23.9913,
+    "l0_start_u": 0.00021,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 126.045948
+  },
+  "7486655392508921856": {
+    "l0_span_weeks": 19.6778,
+    "l0_start_u": 0.016573,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 57.577454
+  },
+  "6827446890867460096": {
+    "l0_span_weeks": 23.8319,
+    "l0_start_u": 0.006638,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 44.939701
+  },
+  "7498488534715336704": {
+    "l0_span_weeks": 15.0717,
+    "l0_start_u": 0.059184,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 281.454281
+  },
+  "7380329705533573120": {
+    "l0_span_weeks": 23.9916,
+    "l0_start_u": 2.4e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 92.115551
+  },
+  "7400917024157435904": {
+    "l0_span_weeks": 22.9812,
+    "l0_start_u": 1.1e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 111.177761
+  },
+  "7140790914893237248": {
+    "l0_span_weeks": 23.9531,
+    "l0_start_u": 0.001912,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 18.577951
+  },
+  "7328869241331371008": {
+    "l0_span_weeks": 23.9011,
+    "l0_start_u": 0.004019,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 58.658355
+  },
+  "7208656820190399488": {
+    "l0_span_weeks": 19.9711,
+    "l0_start_u": 0.000997,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 122.877637
+  },
+  "6927016038370428928": {
+    "l0_span_weeks": 23.9959,
+    "l0_start_u": 5.2e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 215.536717
+  },
+  "6704973888922601472": {
+    "l0_span_weeks": 23.858,
+    "l0_start_u": 0.005508,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 20.999216
+  },
+  "7426561989473830912": {
+    "l0_span_weeks": 23.6966,
+    "l0_start_u": 0.002151,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 16.373644
+  },
+  "7450558029240272896": {
+    "l0_span_weeks": 23.9915,
+    "l0_start_u": 1.3e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 90.990576
+  },
+  "7231091243878795264": {
+    "l0_span_weeks": 23.9197,
+    "l0_start_u": 0.00108,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.81479
+  },
+  "7151313372519073792": {
+    "l0_span_weeks": 23.8484,
+    "l0_start_u": 0.003362,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 17.820905
+  },
+  "6817306569852585984": {
+    "l0_span_weeks": 23.9254,
+    "l0_start_u": 0.002846,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 41.838317
+  },
+  "6817677195201218560": {
+    "l0_span_weeks": 23.8408,
+    "l0_start_u": 0.001907,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 21.140233
+  },
+  "7073662980809820160": {
+    "l0_span_weeks": 23.9739,
+    "l0_start_u": 2.8e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 30.866867
+  },
+  "7364506549686257664": {
+    "l0_span_weeks": 23.8734,
+    "l0_start_u": 0.000561,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 57.469753
+  },
+  "6923977375588583424": {
+    "l0_span_weeks": 23.8454,
+    "l0_start_u": 0.000773,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 57.621297
+  },
+  "7315831670740535296": {
+    "l0_span_weeks": 23.9143,
+    "l0_start_u": 0.002004,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 42.401403
+  },
+  "7260632355633907712": {
+    "l0_span_weeks": 22.9526,
+    "l0_start_u": 0.001903,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 20.302693
+  },
+  "7382283137302842368": {
+    "l0_span_weeks": 23.8558,
+    "l0_start_u": 0.001165,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 42.589299
+  },
+  "7116400670005872640": {
+    "l0_span_weeks": 23.949,
+    "l0_start_u": 0.001387,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 45.262868
+  },
+  "7449924369173760000": {
+    "l0_span_weeks": 23.6894,
+    "l0_start_u": 0.009099,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 74.463698
+  },
+  "7495552113557195776": {
+    "l0_span_weeks": 8.9807,
+    "l0_start_u": 0.00041,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 305.319746
+  },
+  "6756879114637967360": {
+    "l0_span_weeks": 23.9163,
+    "l0_start_u": 0.001338,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 20.404518
+  },
+  "7142169219956738048": {
+    "l0_span_weeks": 23.7827,
+    "l0_start_u": 0.008068,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 24.219243
+  },
+  "6815709646314163200": {
+    "l0_span_weeks": 23.8275,
+    "l0_start_u": 0.002135,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.419745
+  },
+  "7288944607224023040": {
+    "l0_span_weeks": 15.6077,
+    "l0_start_u": 0.001643,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 3.844257
+  },
+  "7031101555747080192": {
+    "l0_span_weeks": 23.9936,
+    "l0_start_u": 0.000102,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 146.91421
+  },
+  "7377942936641521664": {
+    "l0_span_weeks": 23.9682,
+    "l0_start_u": 0.000126,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 83.860989
+  },
+  "6766128122128500736": {
+    "l0_span_weeks": 23.931,
+    "l0_start_u": 0.002428,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 37.817135
+  },
+  "7190453724102264832": {
+    "l0_span_weeks": 23.7932,
+    "l0_start_u": 0.001022,
+    "l0_end_u": 0.998342,
+    "l0_baseline_posts_per_week": 35.346198
+  },
+  "7311392286842210304": {
+    "l0_span_weeks": 23.9407,
+    "l0_start_u": 0.000414,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 65.745848
+  },
+  "7350086979234843648": {
+    "l0_span_weeks": 23.9278,
+    "l0_start_u": 0.002518,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 68.832085
+  },
+  "7136115827699124224": {
+    "l0_span_weeks": 23.9347,
+    "l0_start_u": 0.001461,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 23.605875
+  },
+  "7146319288964483072": {
+    "l0_span_weeks": 23.9307,
+    "l0_start_u": 0.001867,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 69.366988
+  },
+  "7229446069401160704": {
+    "l0_span_weeks": 23.9433,
+    "l0_start_u": 0.002293,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.073449
+  },
+  "7477591295491066880": {
+    "l0_span_weeks": 14.8729,
+    "l0_start_u": 0.000145,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 184.900554
+  },
+  "7377535587517417472": {
+    "l0_span_weeks": 22.9553,
+    "l0_start_u": 0.002544,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 4.74836
+  },
+  "6433566413058739200": {
+    "l0_span_weeks": 23.6803,
+    "l0_start_u": 0.009329,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 33.192153
+  },
+  "7136056894392633344": {
+    "l0_span_weeks": 23.7122,
+    "l0_start_u": 0.003606,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 16.57374
+  },
+  "7352613124358425600": {
+    "l0_span_weeks": 16.8297,
+    "l0_start_u": 0.008743,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 72.134364
+  },
+  "7035383538942053376": {
+    "l0_span_weeks": 23.961,
+    "l0_start_u": 0.000416,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 85.180045
+  },
+  "6432077887372790784": {
+    "l0_span_weeks": 23.9809,
+    "l0_start_u": 8.4e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.358269
+  },
+  "6982541212746008576": {
+    "l0_span_weeks": 23.9934,
+    "l0_start_u": 0.000113,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 252.027465
+  },
+  "7354249271669344256": {
+    "l0_span_weeks": 23.3084,
+    "l0_start_u": 0.001905,
+    "l0_end_u": 0.978902,
+    "l0_baseline_posts_per_week": 8.53771
+  },
+  "6810180973628491776": {
+    "l0_span_weeks": 23.3306,
+    "l0_start_u": 0.010427,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 12.558587
+  },
+  "7421193044956843008": {
+    "l0_span_weeks": 23.4635,
+    "l0_start_u": 0.015784,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 51.356421
+  },
+  "7236362957471401984": {
+    "l0_span_weeks": 23.8313,
+    "l0_start_u": 0.005515,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 51.444878
+  },
+  "7013712211868813312": {
+    "l0_span_weeks": 23.8938,
+    "l0_start_u": 0.001144,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 13.392575
+  },
+  "7289130857087764480": {
+    "l0_span_weeks": 23.9281,
+    "l0_start_u": 0.002427,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 16.63319
+  },
+  "6817434137683560448": {
+    "l0_span_weeks": 23.9695,
+    "l0_start_u": 0.000977,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 38.173465
+  },
+  "7362317730454292480": {
+    "l0_span_weeks": 21.4397,
+    "l0_start_u": 0.003574,
+    "l0_end_u": 0.997468,
+    "l0_baseline_posts_per_week": 2.33212
+  },
+  "6889607397178869760": {
+    "l0_span_weeks": 23.922,
+    "l0_start_u": 0.001748,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 32.522377
+  },
+  "6729959230851254272": {
+    "l0_span_weeks": 23.8782,
+    "l0_start_u": 0.001347,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 19.096886
+  },
+  "7248175565935840256": {
+    "l0_span_weeks": 23.97,
+    "l0_start_u": 0.00017,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 56.946109
+  },
+  "7382338990413023232": {
+    "l0_span_weeks": 18.2458,
+    "l0_start_u": 0.014436,
+    "l0_end_u": 0.982018,
+    "l0_baseline_posts_per_week": 186.015025
+  },
+  "7098939394085702656": {
+    "l0_span_weeks": 23.978,
+    "l0_start_u": 0.000486,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.485351
+  },
+  "7318545970336533504": {
+    "l0_span_weeks": 24.4732,
+    "l0_start_u": 0.000548,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 27.622098
+  },
+  "7269565102079462400": {
+    "l0_span_weeks": 23.7111,
+    "l0_start_u": 0.011814,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 20.538871
+  },
+  "6741087015321749504": {
+    "l0_span_weeks": 5.9283,
+    "l0_start_u": 0.007921,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 185.214799
+  },
+  "6850125286504138752": {
+    "l0_span_weeks": 23.9702,
+    "l0_start_u": 0.000416,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 76.845395
+  },
+  "7403552691299633152": {
+    "l0_span_weeks": 23.7566,
+    "l0_start_u": 0.010536,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 7.366381
+  },
+  "7157012389110482944": {
+    "l0_span_weeks": 23.9656,
+    "l0_start_u": 0.000314,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 45.565254
+  },
+  "7057302525195799552": {
+    "l0_span_weeks": 23.9405,
+    "l0_start_u": 0.000375,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 13.825938
+  },
+  "7282498671971780608": {
+    "l0_span_weeks": 23.9839,
+    "l0_start_u": 0.000272,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 60.957616
+  },
+  "7158886387671960576": {
+    "l0_span_weeks": 23.5955,
+    "l0_start_u": 0.004677,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 11.993804
+  },
+  "7489076516684057600": {
+    "l0_span_weeks": 11.5356,
+    "l0_start_u": 0.002727,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 101.685637
+  },
+  "6928675620993894400": {
+    "l0_span_weeks": 23.8114,
+    "l0_start_u": 0.007816,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 12.682976
+  },
+  "7304653959367887872": {
+    "l0_span_weeks": 23.8386,
+    "l0_start_u": 0.00113,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 25.714563
+  },
+  "7365349431086401536": {
+    "l0_span_weeks": 23.915,
+    "l0_start_u": 0.001227,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 97.972076
+  },
+  "6806083515436779520": {
+    "l0_span_weeks": 19.8688,
+    "l0_start_u": 0.005282,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 167.599578
+  },
+  "6704975150896384000": {
+    "l0_span_weeks": 23.9429,
+    "l0_start_u": 0.001419,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 15.453439
+  },
+  "7268735501090539520": {
+    "l0_span_weeks": 6.9395,
+    "l0_start_u": 0.008658,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 283.450024
+  },
+  "7030869625311086592": {
+    "l0_span_weeks": 23.9757,
+    "l0_start_u": 0.000945,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 12.053864
+  },
+  "6814378834477975552": {
+    "l0_span_weeks": 23.4085,
+    "l0_start_u": 0.005963,
+    "l0_end_u": 0.993068,
+    "l0_baseline_posts_per_week": 2.520452
+  },
+  "6998574909743958016": {
+    "l0_span_weeks": 23.9568,
+    "l0_start_u": 0.000561,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 22.081436
+  },
+  "6997840505614632960": {
+    "l0_span_weeks": 23.9841,
+    "l0_start_u": 0.000316,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 28.894119
+  },
+  "7122499778310572032": {
+    "l0_span_weeks": 23.9257,
+    "l0_start_u": 0.001978,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.221654
+  },
+  "7288041310028302336": {
+    "l0_span_weeks": 23.854,
+    "l0_start_u": 0.003348,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 57.474601
+  },
+  "6715714365183494144": {
+    "l0_span_weeks": 23.9333,
+    "l0_start_u": 0.000378,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 16.796658
+  },
+  "6988190007181887488": {
+    "l0_span_weeks": 23.9834,
+    "l0_start_u": 4.8e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 38.02631
+  },
+  "6722656094272883712": {
+    "l0_span_weeks": 23.9267,
+    "l0_start_u": 0.002256,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 22.819723
+  },
+  "7488170503186697216": {
+    "l0_span_weeks": 11.5987,
+    "l0_start_u": 0.030551,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 86.906325
+  },
+  "7266472362874947584": {
+    "l0_span_weeks": 17.5335,
+    "l0_start_u": 0.02462,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 61.311055
+  },
+  "7136445672676411392": {
+    "l0_span_weeks": 23.8989,
+    "l0_start_u": 0.00029,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 68.957261
+  },
+  "7486135725029673984": {
+    "l0_span_weeks": 10.5853,
+    "l0_start_u": 0.035123,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 143.878295
+  },
+  "7086103923752175616": {
+    "l0_span_weeks": 23.9558,
+    "l0_start_u": 0.001736,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 82.944326
+  },
+  "7462738743510699008": {
+    "l0_span_weeks": 17.9921,
+    "l0_start_u": 0.05186,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 64.472872
+  },
+  "6715976683607820288": {
+    "l0_span_weeks": 23.9248,
+    "l0_start_u": 0.002105,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 36.907334
+  },
+  "7456415250359896064": {
+    "l0_span_weeks": 23.8885,
+    "l0_start_u": 0.001353,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 64.968494
+  },
+  "7405931370277079040": {
+    "l0_span_weeks": 23.6693,
+    "l0_start_u": 0.001325,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 7.816032
+  },
+  "7098516425689762816": {
+    "l0_span_weeks": 23.9521,
+    "l0_start_u": 0.001366,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 35.320485
+  },
+  "7446270015944411136": {
+    "l0_span_weeks": 21.6823,
+    "l0_start_u": 0.008631,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 65.12215
+  },
+  "6746993352891189248": {
+    "l0_span_weeks": 23.9752,
+    "l0_start_u": 0.000873,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 201.791735
+  },
+  "7442030731718855680": {
+    "l0_span_weeks": 23.6643,
+    "l0_start_u": 0.011999,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 45.300369
+  },
+  "7330849122909833216": {
+    "l0_span_weeks": 23.926,
+    "l0_start_u": 0.00302,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 64.532427
+  },
+  "7424014547218566144": {
+    "l0_span_weeks": 10.2033,
+    "l0_start_u": 0.009157,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 256.485974
+  },
+  "7377196584867760128": {
+    "l0_span_weeks": 23.419,
+    "l0_start_u": 0.006734,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 3.928432
+  },
+  "7468711641658525696": {
+    "l0_span_weeks": 23.9373,
+    "l0_start_u": 0.002385,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 143.666977
+  },
+  "7235059392331843584": {
+    "l0_span_weeks": 23.9318,
+    "l0_start_u": 0.001994,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 13.705585
+  },
+  "6930868722663950336": {
+    "l0_span_weeks": 23.8167,
+    "l0_start_u": 0.004916,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 32.204285
+  },
+  "7388997265261677568": {
+    "l0_span_weeks": 23.9921,
+    "l0_start_u": 0.00023,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 52.100415
+  },
+  "7050547465157642240": {
+    "l0_span_weeks": 22.4431,
+    "l0_start_u": 0.015238,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 3.742792
+  },
+  "6696503905120946176": {
+    "l0_span_weeks": 13.5956,
+    "l0_start_u": 0.044155,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 84.439023
+  },
+  "7407459488175867904": {
+    "l0_span_weeks": 23.8313,
+    "l0_start_u": 0.001329,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 41.667839
+  },
+  "6860502663327385600": {
+    "l0_span_weeks": 23.2284,
+    "l0_start_u": 0.016243,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 5.63965
+  },
+  "7021220308539410432": {
+    "l0_span_weeks": 24.9651,
+    "l0_start_u": 0.000383,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 123.492276
+  },
+  "7297042809599576064": {
+    "l0_span_weeks": 18.6707,
+    "l0_start_u": 0.001194,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 152.10985
+  },
+  "7335932349420456960": {
+    "l0_span_weeks": 23.3745,
+    "l0_start_u": 5e-05,
+    "l0_end_u": 0.985724,
+    "l0_baseline_posts_per_week": 31.572808
+  },
+  "6795585271782967296": {
+    "l0_span_weeks": 23.7941,
+    "l0_start_u": 0.006764,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 26.855444
+  },
+  "7387573619378046976": {
+    "l0_span_weeks": 23.8736,
+    "l0_start_u": 0.0041,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 58.223239
+  },
+  "7466220526407535616": {
+    "l0_span_weeks": 9.4341,
+    "l0_start_u": 0.056918,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 360.393204
+  },
+  "7485122811418168320": {
+    "l0_span_weeks": 22.0722,
+    "l0_start_u": 0.040204,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 91.019363
+  },
+  "7179679214566639616": {
+    "l0_span_weeks": 23.951,
+    "l0_start_u": 0.000436,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 71.061712
+  },
+  "6817422635597563904": {
+    "l0_span_weeks": 23.9484,
+    "l0_start_u": 0.001785,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 63.845617
+  },
+  "7470644829996108800": {
+    "l0_span_weeks": 23.6384,
+    "l0_start_u": 0.015013,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 122.724094
+  },
+  "7484273435515340800": {
+    "l0_span_weeks": 23.0508,
+    "l0_start_u": 0.011365,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 195.871666
+  },
+  "7402296491114580992": {
+    "l0_span_weeks": 23.8322,
+    "l0_start_u": 0.006021,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 51.275061
+  },
+  "7345653928603552768": {
+    "l0_span_weeks": 23.8425,
+    "l0_start_u": 0.000704,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 11.534005
+  },
+  "6860515009819052032": {
+    "l0_span_weeks": 23.6227,
+    "l0_start_u": 0.002079,
+    "l0_end_u": 0.998216,
+    "l0_baseline_posts_per_week": 14.223621
+  },
+  "7400513247046453248": {
+    "l0_span_weeks": 23.9732,
+    "l0_start_u": 0.000453,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 137.361663
+  },
+  "7346137389485688832": {
+    "l0_span_weeks": 23.9777,
+    "l0_start_u": 0.000733,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 86.455287
+  },
+  "6756177818679265280": {
+    "l0_span_weeks": 23.8112,
+    "l0_start_u": 0.000545,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 21.880468
+  },
+  "6738456583379880960": {
+    "l0_span_weeks": 23.9844,
+    "l0_start_u": 0.000325,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 49.615588
+  },
+  "7251810329461147648": {
+    "l0_span_weeks": 23.9468,
+    "l0_start_u": 0.002094,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 95.211084
+  },
+  "7450276433584409600": {
+    "l0_span_weeks": 16.658,
+    "l0_start_u": 0.006582,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 78.040576
+  },
+  "7249675601085254656": {
+    "l0_span_weeks": 23.969,
+    "l0_start_u": 0.000764,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 74.346088
+  },
+  "7386800052000589824": {
+    "l0_span_weeks": 23.7282,
+    "l0_start_u": 0.01048,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 16.478268
+  },
+  "6998997669163042816": {
+    "l0_span_weeks": 23.9772,
+    "l0_start_u": 0.0001,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 105.934048
+  },
+  "6786482137315936256": {
+    "l0_span_weeks": 22.7361,
+    "l0_start_u": 0.006426,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 7.828966
+  },
+  "7318349790516562944": {
+    "l0_span_weeks": 17.8839,
+    "l0_start_u": 0.000723,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 103.78072
+  },
+  "7005125708066342912": {
+    "l0_span_weeks": 23.7862,
+    "l0_start_u": 0.000111,
+    "l0_end_u": 0.997136,
+    "l0_baseline_posts_per_week": 20.26386
+  },
+  "7055051802865862656": {
+    "l0_span_weeks": 23.9889,
+    "l0_start_u": 0.000291,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 39.893378
+  },
+  "7377183468658903040": {
+    "l0_span_weeks": 23.9752,
+    "l0_start_u": 0.000399,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 47.215412
+  },
+  "6839324086548563968": {
+    "l0_span_weeks": 23.9295,
+    "l0_start_u": 0.002677,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 28.709288
+  },
+  "7072513628145977344": {
+    "l0_span_weeks": 23.9901,
+    "l0_start_u": 0.000308,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 312.045328
+  },
+  "7089644688840099840": {
+    "l0_span_weeks": 23.5845,
+    "l0_start_u": 0.012082,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 11.660221
+  },
+  "7423463770629638144": {
+    "l0_span_weeks": 23.5514,
+    "l0_start_u": 0.001853,
+    "l0_end_u": 0.994985,
+    "l0_baseline_posts_per_week": 12.52578
+  },
+  "7328468982640413696": {
+    "l0_span_weeks": 15.5466,
+    "l0_start_u": 0.023432,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 101.565648
+  },
+  "7146370280443627520": {
+    "l0_span_weeks": 19.4581,
+    "l0_start_u": 0.025004,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 258.863977
+  },
+  "6769046027488987136": {
+    "l0_span_weeks": 23.9879,
+    "l0_start_u": 5.2e-05,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 42.938283
+  },
+  "6757175541436008448": {
+    "l0_span_weeks": 5.9302,
+    "l0_start_u": 0.001538,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 414.826432
+  },
+  "7308548149097450496": {
+    "l0_span_weeks": 23.9876,
+    "l0_start_u": 0.00027,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 24.345899
+  },
+  "7247207913034614784": {
+    "l0_span_weeks": 23.9611,
+    "l0_start_u": 0.000324,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 33.596061
+  },
+  "7239111762301306880": {
+    "l0_span_weeks": 23.9177,
+    "l0_start_u": 0.000233,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 36.040221
+  },
+  "7291363788900861952": {
+    "l0_span_weeks": 23.9276,
+    "l0_start_u": 0.001869,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 24.53234
+  },
+  "6802349518965704704": {
+    "l0_span_weeks": 23.9652,
+    "l0_start_u": 0.001281,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 31.62914
+  },
+  "6799426662028036096": {
+    "l0_span_weeks": 23.914,
+    "l0_start_u": 0.00089,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 22.16272
+  },
+  "6817460952171022336": {
+    "l0_span_weeks": 23.9469,
+    "l0_start_u": 0.002147,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 85.689758
+  },
+  "7470229359559822336": {
+    "l0_span_weeks": 16.5132,
+    "l0_start_u": 0.000397,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 254.039649
+  },
+  "7080856813989677056": {
+    "l0_span_weeks": 23.9759,
+    "l0_start_u": 0.000151,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 48.173382
+  },
+  "7221312697249531904": {
+    "l0_span_weeks": 16.6647,
+    "l0_start_u": 0.006971,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 46.985676
+  },
+  "6715195986316101632": {
+    "l0_span_weeks": 23.8737,
+    "l0_start_u": 0.004909,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 26.933371
+  },
+  "7463260542765976576": {
+    "l0_span_weeks": 18.3921,
+    "l0_start_u": 0.029358,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 246.355161
+  },
+  "7372449484263704576": {
+    "l0_span_weeks": 23.963,
+    "l0_start_u": 0.000999,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.712477
+  },
+  "7133303460480419840": {
+    "l0_span_weeks": 23.9411,
+    "l0_start_u": 0.001898,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 32.997653
+  },
+  "7238281523266292736": {
+    "l0_span_weeks": 10.5439,
+    "l0_start_u": 0.04286,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 204.099787
+  },
+  "7364508886547007488": {
+    "l0_span_weeks": 21.2393,
+    "l0_start_u": 0.017524,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 97.884651
+  },
+  "7436221373590652928": {
+    "l0_span_weeks": 23.6556,
+    "l0_start_u": 0.000237,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.549079
+  },
+  "7234028101880105984": {
+    "l0_span_weeks": 23.9047,
+    "l0_start_u": 0.000894,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 13.386503
+  },
+  "7489326362086082560": {
+    "l0_span_weeks": 9.9797,
+    "l0_start_u": 0.000873,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 111.927469
+  },
+  "6930001180336688128": {
+    "l0_span_weeks": 23.8405,
+    "l0_start_u": 0.001543,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 54.445082
+  },
+  "7486172421228153856": {
+    "l0_span_weeks": 11.8798,
+    "l0_start_u": 0.000932,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 122.728917
+  },
+  "6865841209802229760": {
+    "l0_span_weeks": 23.9439,
+    "l0_start_u": 0.001865,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 23.179214
+  },
+  "7375246709691680768": {
+    "l0_span_weeks": 23.8968,
+    "l0_start_u": 0.001902,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 25.10801
+  },
+  "7488094138099436544": {
+    "l0_span_weeks": 20.748,
+    "l0_start_u": 0.0103,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 349.720561
+  },
+  "7492100706755184640": {
+    "l0_span_weeks": 9.929,
+    "l0_start_u": 0.002746,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 175.849044
+  },
+  "6817193198436255744": {
+    "l0_span_weeks": 23.9752,
+    "l0_start_u": 0.000735,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 195.576858
+  },
+  "7169970585156454400": {
+    "l0_span_weeks": 23.8573,
+    "l0_start_u": 0.005012,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 34.538726
+  },
+  "7476666724197239808": {
+    "l0_span_weeks": 14.6769,
+    "l0_start_u": 0.020673,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 184.030442
+  },
+  "6771810675950880768": {
+    "l0_span_weeks": 23.9808,
+    "l0_start_u": 0.000137,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 105.2926
+  },
+  "7211414788142794752": {
+    "l0_span_weeks": 22.4989,
+    "l0_start_u": 0.01856,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 7.155898
+  },
+  "7055417725014771712": {
+    "l0_span_weeks": 16.8456,
+    "l0_start_u": 0.002448,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 87.322446
+  },
+  "7394451688570193920": {
+    "l0_span_weeks": 23.9908,
+    "l0_start_u": 0.000249,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 88.950925
+  },
+  "7255081252415375360": {
+    "l0_span_weeks": 23.6868,
+    "l0_start_u": 0.003357,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 13.636279
+  },
+  "7394239873410485248": {
+    "l0_span_weeks": 23.952,
+    "l0_start_u": 0.001358,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 83.500464
+  },
+  "7097255338264496128": {
+    "l0_span_weeks": 23.9131,
+    "l0_start_u": 0.001942,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 30.861697
+  },
+  "7029264560691416064": {
+    "l0_span_weeks": 23.9836,
+    "l0_start_u": 0.000265,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 45.280993
+  },
+  "7386350453707099136": {
+    "l0_span_weeks": 22.0547,
+    "l0_start_u": 0.000803,
+    "l0_end_u": 0.990434,
+    "l0_baseline_posts_per_week": 7.345389
+  },
+  "7173139968540297216": {
+    "l0_span_weeks": 23.5916,
+    "l0_start_u": 0.014921,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 14.750987
+  },
+  "7455564873473492992": {
+    "l0_span_weeks": 21.1245,
+    "l0_start_u": 0.034797,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 66.415748
+  },
+  "7470876675554183168": {
+    "l0_span_weeks": 23.3089,
+    "l0_start_u": 0.023536,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 308.55226
+  },
+  "7423463770629523456": {
+    "l0_span_weeks": 23.7876,
+    "l0_start_u": 0.001811,
+    "l0_end_u": 0.998897,
+    "l0_baseline_posts_per_week": 30.688214
+  },
+  "6895811481653266432": {
+    "l0_span_weeks": 23.9452,
+    "l0_start_u": 0.001592,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 71.955891
+  },
+  "6792956373559691264": {
+    "l0_span_weeks": 23.9212,
+    "l0_start_u": 0.001152,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 17.892091
+  },
+  "7362517900709612544": {
+    "l0_span_weeks": 23.6554,
+    "l0_start_u": 0.002009,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 32.804282
+  },
+  "7013588396048943104": {
+    "l0_span_weeks": 23.9609,
+    "l0_start_u": 0.000903,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 30.466274
+  },
+  "7289503994026805248": {
+    "l0_span_weeks": 22.4045,
+    "l0_start_u": 0.016375,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 346.358353
+  },
+  "7217542291274090496": {
+    "l0_span_weeks": 23.8637,
+    "l0_start_u": 0.005696,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 20.156133
+  },
+  "7328117701929339904": {
+    "l0_span_weeks": 23.8709,
+    "l0_start_u": 0.005323,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 96.519151
+  },
+  "7236086424641980416": {
+    "l0_span_weeks": 23.9945,
+    "l0_start_u": 7e-06,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 51.80359
+  },
+  "6771640057083201536": {
+    "l0_span_weeks": 23.9478,
+    "l0_start_u": 0.001811,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 35.076345
+  },
+  "6997838557607888896": {
+    "l0_span_weeks": 23.9531,
+    "l0_start_u": 0.000392,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 78.570344
+  },
+  "7410878726026496000": {
+    "l0_span_weeks": 23.9722,
+    "l0_start_u": 0.000693,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 82.929474
+  },
+  "7332970249874115584": {
+    "l0_span_weeks": 23.853,
+    "l0_start_u": 0.002326,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 66.78419
+  },
+  "6806496660747766784": {
+    "l0_span_weeks": 23.902,
+    "l0_start_u": 0.00036,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 26.273989
+  },
+  "7467450862064879616": {
+    "l0_span_weeks": 18.954,
+    "l0_start_u": 0.000108,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 109.106002
+  },
+  "6999652139261757440": {
+    "l0_span_weeks": 23.81,
+    "l0_start_u": 0.00246,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.231433
+  },
+  "6917488734020339712": {
+    "l0_span_weeks": 23.9514,
+    "l0_start_u": 0.001596,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 29.726899
+  },
+  "7385401177967577088": {
+    "l0_span_weeks": 23.5476,
+    "l0_start_u": 0.009508,
+    "l0_end_u": 1.0,
+    "l0_baseline_posts_per_week": 5.733069
   }
 }

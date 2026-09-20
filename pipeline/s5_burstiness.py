@@ -1,22 +1,15 @@
 """
 Kleinberg burst detection on each audio's own lifespan (weekly resolution).
 
-Kleinberg (2002): bursts detected from video POST times (real), aggregated to
-week offsets from audio_start (with jitter within each week so same-week posts
-don't collapse to zero gaps).
-
-Views are final snapshot totals assigned to post dates — no decay assumption.
-
-pybursts 0.1.1 has no optional n/T args; n=len(gaps) and T=sum(gaps) are computed
-internally per audio. We pass the SAME s and gamma for every audio so the fixed
-cost function (Eq. 3 in Kleinberg 2002) is comparable across audios.
+Optimized with Polars for fast grouped expressions, zero-copy memory operations,
+and fast Parquet IO.
 """
 from __future__ import annotations
 
 import time
-
 import numpy as np
 import pandas as pd
+import polars as pl
 from joblib import Parallel, delayed
 
 from kleinberg import kleinberg
@@ -41,7 +34,7 @@ N_JOBS = -1
 
 def _jittered_week_offsets(day_indices: np.ndarray, music_id: str) -> np.ndarray:
     """Day indices -> week offsets with seeded jitter inside each week."""
-    rng = np.random.default_rng(JITTER_SEED ^ (hash(music_id) & 0xFFFFFFFF))
+    rng = np.random.default_rng(JITTER_SEED ^ (hash(str(music_id)) & 0xFFFFFFFF))
     weeks = np.floor(day_indices.astype(float) / 7.0)
     return weeks + rng.uniform(0.0, 0.999, size=len(day_indices))
 
@@ -52,7 +45,7 @@ def _maybe_subsample(
     cap = MAX_EVENTS if max_events is None else max_events
     if cap is None or len(offsets) <= cap:
         return offsets
-    rng = np.random.default_rng(JITTER_SEED ^ (hash(music_id) & 0xFFFFFFFF))
+    rng = np.random.default_rng(JITTER_SEED ^ (hash(str(music_id)) & 0xFFFFFFFF))
     keep = np.concatenate(
         [
             [0, len(offsets) - 1],
@@ -71,8 +64,8 @@ def _in_any_burst(week_offset: float, intervals: list[tuple[float, float, int]])
 
 def compute_kleinberg_for_audio(
     music_id: str,
-    grp: pd.DataFrame,
-    audio_start: pd.Timestamp,
+    days: np.ndarray,
+    views: np.ndarray,
     lifespan: int,
     *,
     s: float = KLEINBERG_S,
@@ -93,10 +86,10 @@ def compute_kleinberg_for_audio(
         "burst_views_centroid_u": np.nan,
         "views_burst_lift": np.nan,
     }
-    if len(grp) < MIN_EVENTS:
+    n = len(days)
+    if n < MIN_EVENTS:
         return nan_feats, []
 
-    days = (grp["post_date"] - audio_start).dt.days.to_numpy(dtype=float)
     week_offsets_event = days / 7.0
     n_weeks = lifespan_weeks(lifespan)
     offsets = np.sort(
@@ -134,9 +127,6 @@ def compute_kleinberg_for_audio(
     ]
 
     u = np.clip(days / max(lifespan, 1), 0.0, 1.0)
-    views = grp["total_views"].to_numpy(dtype=float)
-    n = len(grp)
-
     in_burst = np.array([_in_any_burst(w, burst_intervals) for w in week_offsets_event])
     share_videos = float(in_burst.mean()) if n else np.nan
     share_views = float(views[in_burst].sum() / views.sum()) if views.sum() > 0 else np.nan
@@ -181,94 +171,134 @@ def compute_kleinberg_for_audio(
 
 def _process_one(
     music_id: str,
-    grp: pd.DataFrame,
-    snapshot: pd.Timestamp,
+    post_dates: np.ndarray,
+    views: np.ndarray,
+    snapshot: pl.Timestamp,
     s: float,
     gamma: float,
     max_events: int | None = None,
 ) -> tuple[dict, list[dict]]:
-    start, _, lifespan = audio_bounds(grp["post_date"], LIFESPAN_MODE, snapshot)
+    # Convert numpy dates to pandas Timestamp series for compatibility with audio_bounds
+    pd_post_dates = pl.Series(post_dates).to_pandas()
+    start, _, lifespan = audio_bounds(pd_post_dates, LIFESPAN_MODE, snapshot)
+    
+    # Calculate day offsets relative to audio_start
+    days = (pd_post_dates - start).dt.days.to_numpy(dtype=float)
+    days = np.clip(days, 0, None)  # Ensure non-negative day offsets
+
     kfeats, intervals = compute_kleinberg_for_audio(
-        music_id, grp, start, lifespan, s=s, gamma=gamma, max_events=max_events
+        music_id, days, views, lifespan, s=s, gamma=gamma, max_events=max_events
     )
     return kfeats, intervals
-
-
-def kleinberg_sensitivity_row(
-    music_id: str,
-    grp: pd.DataFrame,
-    snapshot: pd.Timestamp,
-    s: float,
-    gamma: float,
-    max_events: int,
-) -> dict:
-    """Kleinberg row for parameter sensitivity."""
-    start, _, lifespan = audio_bounds(grp["post_date"], LIFESPAN_MODE, snapshot)
-    feats, _ = compute_kleinberg_for_audio(
-        music_id, grp, start, lifespan, s=s, gamma=gamma, max_events=max_events
-    )
-    return {
-        "music_id": music_id,
-        "s": s,
-        "gamma": gamma,
-        "kleinberg_max_level": feats["kleinberg_max_level"],
-        "share_of_views_in_bursts": feats["share_of_views_in_bursts"],
-    }
 
 
 def main() -> None:
     t0 = time.perf_counter()
     snapshot = get_snapshot_date()
-    videos = load_videos()
-    videos["music_id"] = videos["music_id"].astype(str)
-    videos["post_date"] = pd.to_datetime(videos["post_date"]).dt.normalize()
 
-    per_audio = load_processed("lifespan_per_audio.parquet")
-    per_audio["music_id"] = per_audio["music_id"].astype(str)
+    # Load videos via Pandas/loader then convert to Polars for high-speed grouping
+    videos_pd = load_videos()
+    videos_pd["music_id"] = videos_pd["music_id"].astype(str)
+    videos_pd["post_date"] = pd.to_datetime(videos_pd["post_date"]).dt.normalize()
+    
+    videos_pl = pl.from_pandas(videos_pd)
 
-    eligible = set(per_audio["music_id"])
-    groups = {mid: g for mid, g in videos.groupby("music_id") if mid in eligible}
+    # Load processed lifespan_per_audio via Polars
+    per_audio_pl = pl.read_parquet(processed_path("lifespan_per_audio.parquet"))
+    per_audio_pl = per_audio_pl.with_columns(pl.col("music_id").cast(pl.Utf8))
 
-    sample_mid = per_audio.nlargest(1, "n_videos")["music_id"].iloc[0]
+    eligible_ids = set(per_audio_pl["music_id"].to_list())
+    
+    # Filter videos to eligible music_ids
+    filtered_videos = videos_pl.filter(pl.col("music_id").is_in(eligible_ids))
+
+    # Group by music_id and extract numpy arrays for joblib execution
+    grouped_data = {}
+    for group in filtered_videos.group_by("music_id", maintain_order=False):
+        mid = group[0][0]
+        gdf = group[1].sort("post_date")
+        grouped_data[mid] = (
+            gdf["post_date"].to_numpy(),
+            gdf["total_views"].cast(pl.Float64).to_numpy(),
+        )
+
+    # Benchmark single audio performance
+    sample_mid = per_audio_pl.sort("n_videos", descending=True)["music_id"][0]
+    sample_dates, sample_views = grouped_data[sample_mid]
+    
     t_one = time.perf_counter()
-    _process_one(sample_mid, groups[sample_mid], snapshot, KLEINBERG_S, KLEINBERG_GAMMA)
+    _process_one(sample_mid, sample_dates, sample_views, snapshot, KLEINBERG_S, KLEINBERG_GAMMA)
     print(
-        f"Timing: music_id={sample_mid} n={len(groups[sample_mid]):,} "
+        f"Timing: music_id={sample_mid} n={len(sample_dates):,} "
         f"took {time.perf_counter() - t_one:.2f}s (MAX_EVENTS={MAX_EVENTS})"
     )
 
-    print(f"Kleinberg (weekly) s={KLEINBERG_S} gamma={KLEINBERG_GAMMA} on {len(groups)} audios ...")
+    print(f"Kleinberg (weekly) s={KLEINBERG_S} gamma={KLEINBERG_GAMMA} on {len(grouped_data)} audios ...")
     t_k = time.perf_counter()
+    
     results = Parallel(n_jobs=N_JOBS)(
-        delayed(_process_one)(mid, grp, snapshot, KLEINBERG_S, KLEINBERG_GAMMA)
-        for mid, grp in groups.items()
+        delayed(_process_one)(mid, dates, views, snapshot, KLEINBERG_S, KLEINBERG_GAMMA)
+        for mid, (dates, views) in grouped_data.items()
     )
     print(f"  wall time: {time.perf_counter() - t_k:.1f}s")
 
     feat_rows, all_intervals = zip(*results) if results else ([], [])
-    burst_df = pd.DataFrame(feat_rows)
-    burst_df["music_id"] = list(groups.keys())
-    intervals_df = pd.DataFrame([r for sub in all_intervals for r in sub])
+    
+    # Construct Polars DataFrames from results
+    burst_df = pl.DataFrame(feat_rows)
+    burst_df = burst_df.with_columns(pl.Series("music_id", list(grouped_data.keys()), dtype=pl.Utf8))
+    
+    intervals_flat = [r for sub in all_intervals for r in sub]
+    intervals_df = pl.DataFrame(intervals_flat) if intervals_flat else pl.DataFrame()
 
+    # Drop existing burst columns if present to avoid duplication on join
     burst_cols = [c for c in burst_df.columns if c != "music_id"]
-    legacy = ("burstiness_count", "burstiness_views", "burstiness_views_log")
-    out = per_audio.drop(
-        columns=[c for c in (*burst_cols, *legacy) if c in per_audio.columns],
-        errors="ignore",
-    )
-    out = out.merge(burst_df, on="music_id", how="left")
+    legacy_cols = ["burstiness_count", "burstiness_views", "burstiness_views_log"]
+    drop_cols = [c for c in (*burst_cols, *legacy_cols) if c in per_audio_pl.columns]
+    
+    out_pl = per_audio_pl.drop(drop_cols).join(burst_df, on="music_id", how="left")
 
-    out.to_parquet(processed_path("lifespan_per_audio.parquet"), index=False)
-    intervals_df.to_parquet(processed_path("kleinberg_bursts.parquet"), index=False)
+    # Save output parquet files using Polars
+    out_pl.write_parquet(processed_path("lifespan_per_audio.parquet"))
+    intervals_df.write_parquet(processed_path("kleinberg_bursts.parquet"))
 
-    has_burst = out["kleinberg_n_bursts"].fillna(0) > 0
+    has_burst = out_pl["kleinberg_n_bursts"].fill_null(0) > 0
     print("\n=== Summary ===")
-    print(f"audios with bursts (level>={BURST_LEVEL_MIN}): {int(has_burst.sum()):,} / {len(out):,}")
-    print(f"median kleinberg_max_level: {out['kleinberg_max_level'].median():.2f}")
-    print(f"median views_burst_lift: {out['views_burst_lift'].median():.3f}")
+    print(f"audios with bursts (level>={BURST_LEVEL_MIN}): {int(has_burst.sum()):,} / {len(out_pl):,}")
+    print(f"median kleinberg_max_level: {out_pl['kleinberg_max_level'].median():.2f}")
+    print(f"median views_burst_lift: {out_pl['views_burst_lift'].median():.3f}")
     print(f"kleinberg_bursts intervals: {len(intervals_df):,}")
     print(f"runtime: {time.perf_counter() - t0:.1f}s")
 
+def kleinberg_sensitivity_row(
+    music_id: str,
+    group_df: pd.DataFrame | pl.DataFrame,
+    snapshot: pd.Timestamp,
+    s: float,
+    gamma: float,
+    max_events: int | None = None,
+) -> dict:
+    """Helper function for sensitivity analysis in downstream exploration scripts."""
+    if isinstance(group_df, pl.DataFrame):
+        post_dates = group_df["post_date"].cast(pl.Datetime("ns")).to_numpy()
+        views = group_df["total_views"].cast(pl.Float64).to_numpy()
+    else:
+        post_dates = pd.to_datetime(group_df["post_date"]).to_numpy(dtype="datetime64[ns]")
+        views = group_df["total_views"].to_numpy(dtype=float)
+
+    feats, _ = _process_one(
+        music_id=music_id,
+        post_dates=post_dates,
+        views=views,
+        snapshot=snapshot,
+        s=s,
+        gamma=gamma,
+        max_events=max_events,
+    )
+    
+    row = {"music_id": music_id, "s": s, "gamma": gamma}
+    row.update(feats)
+    return row
 
 if __name__ == "__main__":
     main()

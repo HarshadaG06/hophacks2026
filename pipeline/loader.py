@@ -9,23 +9,23 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 PROCESSED = ROOT / "data" / "processed"
-REAL_DIR = ROOT / "data" / "drive-download-20260920T011427Z-1-001"
-REAL_PATH = REAL_DIR / "top_500_audios.parquet"
+REAL_PATH = ROOT / "hophacks_2026_10M_processed" / "greater_1000_videos.parquet"
 
-# Map standard names -> real column names (None = synthesize / missing)
+# Date range filtering boundaries
+START_DATE = pd.Timestamp("2025-01-01")
+END_DATE = pd.Timestamp("2025-07-01")
+
+# Map standard names -> real column names (None = unavailable).
 COLUMN_MAP = {
-    "video_id": None,          # sequential id assigned on load
+    "video_id": "id",          # preserves original parquet id
     "music_id": "music_id",
     "post_date": "create_time",  # unix seconds
-    "caption": None,             # not in dump
-    "total_views": None,         # NOT in dump — see warning below
+    "caption": "desc",             # caption/description field
+    "total_views": "play_count",   # falls back to play_count
 }
 
 # Set manually if you know the collection date. None => max(post_date).
 SNAPSHOT_DATE: pd.Timestamp | None = None
-
-# Seeded synthetic totals only used when total_views is missing from the dump.
-SYNTHETIC_VIEWS_SEED = 42
 
 _CACHE: dict | None = None
 
@@ -61,11 +61,12 @@ def inspect_real_table(path: Path = REAL_PATH) -> pd.DataFrame:
         )
     missing = [k for k, v in COLUMN_MAP.items() if v is None]
     print(f"COLUMN_MAP missing real sources for: {missing}")
-    if COLUMN_MAP["total_views"] is None:
+    views_col = COLUMN_MAP["total_views"]
+    if not (views_col and views_col in raw.columns) and "play_count" not in raw.columns:
         print(
-            "WARNING: dump has no plays/views/likes. "
-            "Synthesizing total_views so assumed-decay expansion can run. "
-            "Replace COLUMN_MAP['total_views'] when real counts are available."
+            "ERROR: dump has no usable total-view column. The analysis will not "
+            "fabricate view counts; configure COLUMN_MAP['total_views'] with a real "
+            "column or provide a `play_count` column."
         )
     print("=== END INSPECTION ===")
     return raw
@@ -76,15 +77,22 @@ def _normalize(raw: pd.DataFrame) -> pd.DataFrame:
 
     post_col = COLUMN_MAP["post_date"]
     music_col = COLUMN_MAP["music_id"]
+    id_col = COLUMN_MAP["video_id"]
 
     out = pd.DataFrame()
+
+    # 1. Preserve original video ID from parquet if present
+    if id_col and id_col in raw.columns:
+        out["video_id"] = raw[id_col]
+    else:
+        out["video_id"] = np.arange(1, len(raw) + 1, dtype=np.int64)
+
     out["music_id"] = _music_id_str(raw[music_col])
     out["post_date"] = (
         pd.to_datetime(raw[post_col], unit="s", utc=True)
         .dt.tz_localize(None)
         .dt.normalize()
     )
-    out["video_id"] = np.arange(1, len(out) + 1, dtype=np.int64)
 
     if COLUMN_MAP["caption"] and COLUMN_MAP["caption"] in raw.columns:
         out["caption"] = raw[COLUMN_MAP["caption"]].astype(str)
@@ -102,11 +110,15 @@ def _normalize(raw: pd.DataFrame) -> pd.DataFrame:
     elif "play_count" in out.columns:
         out["total_views"] = out["play_count"].fillna(0).astype(np.int64)
     else:
-        rng = np.random.default_rng(SYNTHETIC_VIEWS_SEED)
-        # Age-aware lognormal placeholder (older posts tend to have more views)
-        age_days = (out["post_date"].max() - out["post_date"]).dt.days.clip(lower=0).to_numpy()
-        log_mean = 7.5 + 0.002 * np.minimum(age_days, 365)
-        out["total_views"] = np.maximum(1, rng.lognormal(log_mean, 0.8).astype(np.int64))
+        raise ValueError(
+            "No real total-view column is available. Refusing to fabricate total_views. "
+            "Set COLUMN_MAP['total_views'] to the source view column, or supply "
+            "a `play_count` column."
+        )
+
+    # 2. Filter date range: 2025-01-01 to 2025-07-01 inclusive
+    mask = (out["post_date"] >= START_DATE) & (out["post_date"] <= END_DATE)
+    out = out[mask].reset_index(drop=True)
 
     if SNAPSHOT_DATE is None:
         SNAPSHOT_DATE = pd.Timestamp(out["post_date"].max())

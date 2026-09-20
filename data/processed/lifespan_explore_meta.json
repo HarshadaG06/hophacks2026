@@ -1,11 +1,11 @@
 {
-  "bimodal_views_centroid_u": "2-component",
-  "median_age_views_spearman": 0.19950764408369578,
+  "bimodal_views_centroid_u": "1-component",
+  "median_age_views_spearman": 0.1864005491813138,
   "kleinberg_s": 2.0,
   "kleinberg_gamma": 1.0,
   "sensitivity_correlations": {
-    "kleinberg_max_level": 0.8212728829962539,
-    "share_of_views_in_bursts": 0.9433028628380745
+    "kleinberg_max_level": 0.5423717662302442,
+    "share_of_views_in_bursts": 0.7281532431968067
   },
   "cluster_features": [
     "views_centroid_u",
@@ -18,11 +18,11 @@
     "share_of_views_in_bursts"
   ],
   "silhouette_scores": {
-    "2": 0.33112884064499953,
-    "3": 0.23239656538082412,
-    "4": 0.2605086517968148,
-    "5": 0.221162950930137,
-    "6": 0.2584464469514346
+    "2": 0.2737758418074123,
+    "3": 0.30170475647583167,
+    "4": 0.30965766317243326,
+    "5": 0.26279154212361594,
+    "6": 0.23242636998116445
   },
-  "best_k": 2
+  "best_k": 4
 }

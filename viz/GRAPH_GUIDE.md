@@ -186,7 +186,7 @@ Only intervals with **level ≥ 1** are drawn. Burst **features** (e.g. `share_o
 ## Caveats
 
 1. **Snapshot views:** `total_views` is the count at collection time. Older videos had longer to accumulate views, which pushes `views_centroid_u` toward earlier u unless corrected. Check `age_views_spearman` in the data.  
-2. **Synthetic views:** If the raw dump lacks view counts, `loader.py` assigns placeholder totals — metrics are structurally valid but absolute view numbers may not be real.  
+2. **Required real views:** The pipeline refuses to run when its input lacks a real view-count column (`total_views` as configured in `loader.py`, or `play_count`). It does not generate placeholder view counts.
 3. **Bursts ≠ views:** Kleinberg bands are from post timestamps; a posting burst does not guarantee a view spike on those days.
 
 ---

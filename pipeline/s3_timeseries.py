@@ -1,62 +1,75 @@
-"""Daily video counts per music_id (post-date) over the fixed analysis window."""
+"""Daily video counts per music_id (post-date) over the fixed analysis window using Polars."""
 from __future__ import annotations
 
 import time
+import polars as pl
 
-import pandas as pd
-
-from loader import get_snapshot_date, get_window, load_videos, processed_path
+from loader import get_snapshot_date, get_window, processed_path, REAL_PATH
 
 
 def main() -> None:
     t0 = time.perf_counter()
-    videos = load_videos()
     window_start, window_end = get_window()
     snapshot = get_snapshot_date()
 
-    videos = videos.copy()
-    videos["post_date"] = pd.to_datetime(videos["post_date"]).dt.normalize()
-    videos = videos[
-        (videos["post_date"] >= window_start) & (videos["post_date"] <= window_end)
-    ]
-
-    daily = (
-        videos.groupby(["music_id", "post_date"], as_index=False)
-        .size()
-        .rename(columns={"size": "video_count", "post_date": "date"})
+    # 1. Lazy evaluation directly from parquet (avoids loading unnecessary data into memory)
+    lazy_df = (
+        pl.scan_parquet(REAL_PATH)
+        .with_columns([
+            # Convert Unix timestamps to Date objects directly
+            pl.from_epoch(pl.col("create_time"), time_unit="s").dt.date().alias("date"),
+            pl.col("music_id").round().cast(pl.Int64).cast(pl.String).alias("music_id"),
+            pl.col("play_count").cast(pl.Int64).fill_null(0).alias("total_views"),
+        ])
+        .filter(
+            (pl.col("date") >= window_start.date()) & 
+            (pl.col("date") <= window_end.date())
+        )
     )
 
-    # Expand to fixed window including zero days (per music_id)
-    full_idx = pd.date_range(window_start, window_end, freq="D")
-    rows = []
-    for mid, grp in daily.groupby("music_id"):
-        s = grp.set_index("date")["video_count"].reindex(full_idx, fill_value=0)
-        part = s.rename("video_count").rename_axis("date").reset_index()
-        part["music_id"] = mid
-        rows.append(part)
-    daily_posts = pd.concat(rows, ignore_index=True)
-    daily_posts.to_parquet(processed_path("daily_posts.parquet"), index=False)
-
-    # Same-day assumption: all of a video's total_views land on post_date
-    same = (
-        videos.groupby(["music_id", "post_date"], as_index=False)["total_views"]
-        .sum()
-        .rename(columns={"post_date": "date", "total_views": "views_same_day"})
+    # 2. Parallelized GroupBy aggregation
+    aggregated = (
+        lazy_df.group_by(["music_id", "date"])
+        .agg([
+            pl.len().alias("video_count"),
+            pl.col("total_views").sum().alias("views_same_day"),
+        ])
+        .collect()  # Triggers parallel processing engine
     )
-    same_rows = []
-    for mid, grp in same.groupby("music_id"):
-        s = grp.set_index("date")["views_same_day"].reindex(full_idx, fill_value=0)
-        part = s.rename("views_same_day").rename_axis("date").reset_index()
-        part["music_id"] = mid
-        same_rows.append(part)
-    same_day = pd.concat(same_rows, ignore_index=True)
-    same_day.to_parquet(processed_path("daily_views_same_day.parquet"), index=False)
+
+    # 3. Fast grid expansion using cross join (music_ids x full date range)
+    unique_musics = aggregated.select("music_id").unique()
+    date_range = pl.date_range(
+        start=window_start.date(),
+        end=window_end.date(),
+        interval="1d",
+        eager=True,
+    ).alias("date")
+
+    # Cartesian product grid
+    grid = unique_musics.join(date_range.to_frame(), how="cross")
+
+    # 4. Join aggregated data onto grid and fill missing dates with 0
+    full_df = (
+        grid.join(aggregated, on=["music_id", "date"], how="left")
+        .with_columns([
+            pl.col("video_count").fill_null(0),
+            pl.col("views_same_day").fill_null(0),
+        ])
+    )
+
+    # 5. Write outputs in parallel
+    full_df.select(["music_id", "date", "video_count"]).write_parquet(
+        processed_path("daily_posts.parquet")
+    )
+    full_df.select(["music_id", "date", "views_same_day"]).write_parquet(
+        processed_path("daily_views_same_day.parquet")
+    )
 
     elapsed = time.perf_counter() - t0
-    print(f"daily_posts: {len(daily_posts):,} rows (zeros filled)")
-    print(f"daily_views_same_day: {len(same_day):,} rows")
+    print(f"daily_posts: {len(full_df):,} rows (zeros filled)")
     print(f"window: {window_start.date()} -> {window_end.date()} (snapshot={snapshot.date()})")
-    print(f"runtime: {elapsed:.1f}s")
+    print(f"runtime: {elapsed:.2f}s")
 
 
 if __name__ == "__main__":
