@@ -1,0 +1,28 @@
+{
+  "bimodal_views_centroid_u": "2-component",
+  "median_age_views_spearman": 0.19950764408369578,
+  "kleinberg_s": 2.0,
+  "kleinberg_gamma": 1.0,
+  "sensitivity_correlations": {
+    "kleinberg_max_level": 0.8212728829962539,
+    "share_of_views_in_bursts": 0.9433028628380745
+  },
+  "cluster_features": [
+    "views_centroid_u",
+    "peak_u_views",
+    "share_views_first25",
+    "top_video_centroid_u",
+    "log_lifespan_days",
+    "kleinberg_max_level",
+    "top_burst_length_share",
+    "share_of_views_in_bursts"
+  ],
+  "silhouette_scores": {
+    "2": 0.33112884064499953,
+    "3": 0.23239656538082412,
+    "4": 0.2605086517968148,
+    "5": 0.221162950930137,
+    "6": 0.2584464469514346
+  },
+  "best_k": 2
+}
