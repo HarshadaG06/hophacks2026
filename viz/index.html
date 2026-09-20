@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Audio Lifespan Explorer</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Audio Lifespan Explorer</h1>
+
+    <p class="sub">When within an audio's life are the most-viewed videos concentrated?</p>
+
+  </header>
+
+
+
+  <main class="grid">
+
+    <section class="panel wide" id="daily-panel">
+
+      <div class="panel-head">
+
+        <h2>Selected audio — weekly posting</h2>
+
+        <span class="meta" id="daily-label">click a dot to select</span>
+
+      </div>
+
+      <svg id="daily-views-svg"></svg>
+
+      <svg id="daily-counts-svg"></svg>
+
+    </section>
+
+
+
+    <section class="panel wide" id="norm-panel">
+
+      <div class="panel-head">
+
+        <h2>Same audio — normalized lifespan</h2>
+
+        <span class="meta">share of views vs share of videos (20 bins)</span>
+
+      </div>
+
+      <svg id="norm-svg"></svg>
+
+    </section>
+
+
+
+    <section class="panel" id="hist-panel">
+
+      <div class="panel-head">
+
+        <h2>views_centroid_u distribution</h2>
+
+      </div>
+
+      <svg id="hist-svg"></svg>
+
+      <p class="hint" id="bimodality-hint"></p>
+
+    </section>
+
+
+
+    <section class="panel" id="scatter-panel">
+
+      <div class="panel-head">
+
+        <h2>Views vs count centroid</h2>
+
+        <span class="meta">click to select · shift-drag to brush</span>
+
+      </div>
+
+      <svg id="scatter-svg"></svg>
+
+    </section>
+
+
+
+    <section class="panel" id="mean-panel">
+
+      <div class="panel-head">
+
+        <h2>Mean normalized curve</h2>
+
+        <div class="toggle" id="tercile-toggle" role="group">
+
+          <button type="button" data-t="all" class="active">All</button>
+
+          <button type="button" data-t="short">Short</button>
+
+          <button type="button" data-t="medium">Medium</button>
+
+          <button type="button" data-t="long">Long</button>
+
+        </div>
+
+      </div>
+
+      <svg id="mean-svg"></svg>
+
+    </section>
+
+
+
+    <section class="panel" id="cluster-panel">
+
+      <div class="panel-head"><h2>Cluster summary</h2></div>
+
+      <div id="cluster-summary"></div>
+
+    </section>
+
+
+
+    <section class="panel" id="burst-hist-panel">
+
+      <div class="panel-head">
+
+        <h2>Kleinberg max level</h2>
+
+        <span class="meta">updates on brush · red line = selected</span>
+
+      </div>
+
+      <svg id="burst-hist-svg"></svg>
+
+      <p class="hint" id="burst-hint"></p>
+
+    </section>
+
+
+
+    <section class="panel" id="burst-scatter-panel">
+
+      <div class="panel-head">
+
+        <h2>Burst vs view centroid</h2>
+
+        <span class="meta">click to select · shift-drag to brush</span>
+
+      </div>
+
+      <svg id="burst-scatter-svg"></svg>
+
+    </section>
+
+  </main>
+
+
+
+  <p class="footnote">
+
+    Bursts are detected from video posting times at weekly resolution (Kleinberg 2002). Views are final counts at the snapshot date.
+
+    Older videos have had longer to accumulate views.
+
+  </p>
+
+
+
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
+
